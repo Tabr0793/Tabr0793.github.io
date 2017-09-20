@@ -103,6 +103,68 @@ a:hover {
      width: 1170px;
    }
 
+   .portfolio .title .portfolio-links {
+      text-align: center;
+      display:block;
+      position: relative;
+    }
+       header .site-logo img {
+         max-width: 100%;
+         height: auto;
+         align-self: flex-start;
+     }
+    }
+    .portfolio .title .portfolio-links h1 {
+      font-size:32px;
+      font-weight: normal;
+      margin:95px 0 0;
+    }
+    @media (min-width: 620px) {
+    .portfolio .title .portfolio-links h1 {
+      font-size:48px;
+      font-weight: normal;
+      margin:95px 0 0;
+    }
+   }
+    .portfolio .title .portfolio-links p {
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: 100;
+      margin:10px 0 40px;
+    }
+      @media (min-width: 620px) {
+      .portfolio .title .portfolio-links p {
+       font-size: 22px;
+       line-height: 26px;
+       font-weight: 100;
+       margin:10px 0 40px;
+      }
+    }
+    .portfolio .title .portfolio-links img {
+      max-width: 100%;
+      height: auto;
+      Margin: 3em auto 0;
+      display: block;
+      margin-bottom: -.5px;
+    }
+     @media (min-width: 320px) {
+      .portfolio .title .portfolio-links img {
+        max-width: 100%;
+        height: auto;
+        Margin: 3em auto 0;
+        display: block;
+        margin-bottom: -2.5px;
+      }
+    }
+    @media (min-width: 620px) {
+      .portfolio .title .portfolio-links img {
+        display:block;
+        margin:3em auto 0;
+        margin-bottom: -4px;
+      }
+    }
+
+
   /*header*/
   .portfolio-links {
     list-style: none;
@@ -226,6 +288,7 @@ a:hover {
    margin-top: 660px;
    padding-top: 30px;
    padding-bottom: 30px;
+   max-height: 216;
    background: rgba(236, 238, 240, 0.5);
  }
  /* body */
@@ -240,11 +303,129 @@ a:hover {
   .container-hero.hero p {
     margin-right: auto;
     margin-left: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 15px;
+    font-size: 8px;
+  }
+  @media (min-width: 480px) {
+  .container-hero.hero p {
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 12px;
+   font-size: 8px;
+   line-height: 18px;
+  }
+}
+@media (min-width: 556px) {
+.container-hero.hero p {
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 12px;
+ font-size: 9px;
+ line-height: 18px;
+}
+}
+  @media (min-width: 670px) {
+  .container-hero.hero p {
     padding-left: 55px;
     padding-right: 55px;
-    line-height: 24px;
-    font-size: 14px;
+    line-height: 15px;
+   font-size: 9px;
+   line-height: 18px;
   }
+}
+  @media (min-width: 615px) {
+  .container-hero.hero p {
+    padding-left: 55px;
+    padding-right: 55px;
+    line-height: 15px;
+   font-size: 9px;
+   line-height: 18px;
+  }
+}
+@media (min-width: 672px) {
+.container-hero.hero p {
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 16px;
+ font-size: 11px;
+ line-height: 18px;
+}
+}
+  @media (min-width: 725px) {
+  .container-hero.hero p {
+    padding-left: 55px;
+    padding-right: 55px;
+    line-height: 15px;
+   font-size: 11px;
+   line-height: 18px;
+  }
+}
+
+@media (min-width: 754px) {
+.container-hero.hero p {
+  padding-left: 55px;
+  padding-right: 55px;
+  line-height: 15px;
+ font-size: 11px;
+ line-height: 18px;
+  }
+}
+@media (min-width: 791px) {
+.container-hero.hero p {
+  padding-left: 55px;
+  padding-right: 55px;
+  line-height: 15px;
+ font-size: 11px;
+ line-height: 20px;
+  }
+}
+@media (min-width: 950px) {
+.container-hero.hero p {
+  padding-left: 55px;
+  padding-right: 55px;
+  line-height: 15px;
+ font-size: 11px;
+ line-height: 20px;
+  }
+}
+@media (min-width: 962px) {
+.container-hero.hero p {
+  padding-left: 55px;
+  padding-right: 55px;
+  line-height: 15px;
+ font-size: 11px;
+ line-height: 22px;
+  }
+}
+  @media (min-width: 1003px) {
+  .container-hero.hero p {
+    padding-left: 55px;
+    padding-right: 55px;
+    line-height: 15px;
+   font-size: 11px;
+   line-height: 24px;
+  }
+}
+@media (min-width: 1086px) {
+.container-hero.hero p {
+  padding-left: 55px;
+  padding-right: 55px;
+  line-height: 15px;
+ font-size: 12px;
+ line-height: 24px;
+  }
+}
+@media (min-width: 1250px) {
+.container-hero.hero p {
+  padding-left: 55px;
+  padding-right: 55px;
+  line-height: 15px;
+ font-size: 14px;
+ line-height: 24px;
+  }
+}
 
   .animated.fadeIn {
     margin-left: 55px;
