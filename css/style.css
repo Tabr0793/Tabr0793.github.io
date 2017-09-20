@@ -102,6 +102,60 @@ a:hover {
    .container {
      width: 1170px;
    }
+   header nav ul {
+  padding: 10px 15px;
+  display: flex;
+  float: right;
+  max-width: 1170px;
+  margin: 0 auto;
+  align-items: center;
+  }
+@media (min-width: 639px){
+  header nav ul {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  margin: 0 auto;
+  align-items: center;
+  }
+}
+  header nav ul > li {
+    list-style-type: none;
+    display: inline-block;
+    margin:0 15px;
+  }
+  .portfolio-links {
+  list-style: none;
+  display: flex;
+}
+.portfolio-links li {
+margin: 0 20px;
+font-size: 80%;
+display: inline-table;
+}
+.portfolio-links li:last-child {
+margin-right: 0;
+}
+@media (min-width: 700px) {
+.portfolio-links {
+  list-style: none;
+  display: flex;
+  max-height: 100%;
+}
+}
+@media (min-width: 700px) {
+  .portfolio-links li {
+  margin: 0 20px;
+  max-height: 100%;
+}
+}
+@media (min-width: 700px) {
+.portfolio-links li:last-child {
+  margin-right: 0;
+  max-height: 100%;
+}
+}
 
    .portfolio .title .portfolio-links {
       text-align: center;
@@ -114,6 +168,29 @@ a:hover {
          align-self: flex-start;
      }
     }
+    header .hero img {
+   max-width: 100%;
+   height: auto;
+   Margin: 3em auto 0;
+   display: block;
+   margin-bottom: -.5px;
+ }
+ @media (min-width: 320px) {
+   header .hero img {
+     max-width: 100%;
+     height: auto;
+     Margin: 3em auto 0;
+     display: block;
+     margin-bottom: -2.5px;
+   }
+ }
+ @media (min-width: 620px) {
+   header .hero img {
+     display:block;
+     margin:3em auto 0;
+     margin-bottom: -4px;
+   }
+ }
     .portfolio .title .portfolio-links h1 {
       font-size:32px;
       font-weight: normal;
@@ -165,10 +242,9 @@ a:hover {
     }
 
 
+
   /*header*/
   .portfolio-links {
-    list-style: none;
-    display: flex;
     float: right;
 }
   .portfolio-links li {
@@ -276,12 +352,32 @@ a:hover {
     margin:0 15px;
   }
  /*hero*/
- .my-photo {
+ .hero img {
      float:right;
      clear:both;
      margin-top: -40px;
      opacity: .6;
+     max-width: 30%;
+     max-height: 30%;
+     image-orientation:
  }
+ @media (min-width: 320px) {
+ .hero img {
+   max-width: 70%;
+   max-height: 70%;
+ }
+}
+@media (min-width: 620px) {
+ .hero img {
+   max-width: 100%;
+   max-height: 100%;
+ }
+}
+@media (max-width: 578px) {
+ .hero img {
+   display: none;
+ }
+}
  .container-hero p {
    position:absolute;
    clear:both;
@@ -346,8 +442,8 @@ a:hover {
 }
 @media (min-width: 672px) {
 .container-hero.hero p {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 55px;
+  padding-right: 55px;
   line-height: 16px;
  font-size: 11px;
  line-height: 18px;
@@ -430,10 +526,46 @@ a:hover {
   .animated.fadeIn {
     margin-left: 55px;
     margin-top: 250px;
-    padding-left: 15px;
-    position: relative;
+    padding-left: 70px;
+    position: inherit;
+  }
+  @media (max-width: 1074px) {
+    .animated.fadeIn {
+      margin-top: 50px;
+      font-size: 20px;
+    }
+  }
+}
+@media (max-width: 917px) {
+  .animated.fadeIn {
+    font-size: 18px;
+  }
+}
+  @media (max-width: 885px) {
+    .animated.fadeIn {
+      font-size: 14px;
+    }
   }
 
+  @media (max-width: 445px) {
+    .animated.fadeIn {
+      margin-left:0 ;
+      margin-top: 250px;
+      padding-left: 15px;
+      padding-right: 15px;
+      position: inherit;
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 580px) {
+    .animated.fadeIn {
+      margin-left:0 ;
+      margin-top: 250px;
+      padding-right: 0px;
+      padding-right: 30px;
+      position: inherit;
+    }
+  }
    /* portfolio */
 .portfolio {
 
