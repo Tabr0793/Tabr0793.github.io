@@ -9,7 +9,13 @@ html, body{
    margin: 0;
  }
  h1, h2, h3, h4, h5, h6 {
-   font-family: "aviano sans", Helvetica, Arial, sans-serif;
+   font-family: "semplicita pro", Helvetica, Arial, sans-serif;
+ }
+ h1{
+   letter-spacing: 5px;
+   line-height: 70px;
+   text-align: center;
+   font-size: 30px;
  }
  h2 {
    font-size:16px;
@@ -17,15 +23,23 @@ html, body{
    margin-bottom: 5px;
  }
  p {
-   font-family: "aviano sans", Helvetica, Arial, sans-serif;
+   font-family: "termina", Helvetica, Arial, sans-serif;
    font-size:12px;
    line-height: 19px;
    font-weight: 100;
    margin-top: 80px;
   }
   A {
-     text-decoration:none;
-   }
+  color: #425464;
+  text-decoration: none;
+}
+a:active {
+  color: #42E8E3;
+  text-decoration: underline;
+}
+a:hover {
+  color: #42E8E3;
+}
 @media (min-width: 620px) {
   h2 {
      font-size:28px;
@@ -88,12 +102,174 @@ html, body{
    .container {
      width: 1170px;
    }
-  /*hero*/
-  .my-photo {
-      float:right;
-      clear:both;
+
+  /*header*/
+  .portfolio-links {
+    list-style: none;
+    display: flex;
+    float: right;
+}
+  .portfolio-links li {
+  margin: 0 20px;
+  font-size: 80%;
+  display: inline-table;
+}
+.portfolio-links li:last-child {
+  margin-right: 0;
+}
+@media (min-width: 700px) {
+  .portfolio-links {
+    list-style: none;
+    display: flex;
+    max-height: 100%;
   }
-  .container-hero p {
-    position:absolute;
-    clear:both;
+}
+@media (min-width: 700px) {
+    .portfolio-links li {
+    margin: 0 20px;
+    max-height: 100%;
   }
+}
+@media (min-width: 700px) {
+  .portfolio-links li:last-child {
+    margin-right: 0;
+    max-height: 100%;
+  }
+  .five-step {
+     overflow: hidden;
+  }
+  .site-logo {
+    margin-top: 30px;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+  }
+}
+  header .hero {
+   text-align: left;
+   display:block;
+   position: relative;
+   clear:both;
+ }
+ /* HEADER */
+  header {
+    background: #EDEEF1;
+   box-shadow: 0px 2px 4px 0px #DBDADA;
+  }
+  header nav {
+    padding:1em 0;
+  }
+  #body_div {
+  top: 0;
+  position: relative;
+  height: 200px;
+  background-color: green;
+}
+
+#banner {
+  width: 100%;
+  height: 273px;
+  background-color: gray;
+  overflow: hidden;
+}
+
+#nav_bar {
+  border: 0;
+  background-color: #EDEEF1;
+  border-radius: 0px;
+  margin-bottom: 0;
+  height: 30px;
+}
+  .header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
+  align-items: center;
+  }
+  .one-fifth {
+    max-width: 34%;
+  }
+  header nav ul {
+  padding: 10px 15px;
+  display: flex;
+  float: right;
+  max-width: 1170px;
+  margin: 0 auto;
+  align-items: center;
+  }
+@media (min-width: 639px){
+  header nav ul {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  margin: 0 auto;
+  align-items: center;
+  }
+}
+  header nav ul > li {
+    list-style-type: none;
+    display: inline-block;
+    margin:0 15px;
+  }
+ /*hero*/
+ .my-photo {
+     float:right;
+     clear:both;
+     margin-top: -40px;
+     opacity: .6;
+ }
+ .container-hero p {
+   position:absolute;
+   clear:both;
+   margin-top: 660px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   background: rgba(236, 238, 240, 0.5);
+ }
+ /* body */
+  body {
+    background: #F4F6F8;
+  }
+  .container-hero.hero {
+    display: flex;
+    justify-content: space-between;
+    max-width: inherit;
+  }
+  .container-hero.hero p {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    line-height: 24px;
+    font-size: 14px;
+  }
+
+  .animated.fadeIn {
+    margin-left: 55px;
+    margin-top: 250px;
+    padding-left: 15px;
+    position: relative;
+  }
+
+   /* portfolio */
+.portfolio {
+
+   }
+.portfolio h1 {
+  margin: 0;
+
+}
+.title {
+  max-width: 355px ;
+}
+.title p .portfolio-link a {
+  display: flex;
+  margin: auto;
+}
+.title p {
+  margin: 0;
+  display: inline-table;
+  text-align: center;
+}
