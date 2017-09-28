@@ -468,7 +468,7 @@ margin-right: 0;
 
   .animated.fadeIn {
     margin-left: 55px;
-    margin-top: 300px;
+    margin-top: 350px;
     padding-left: 70px;
     position: inherit;
   }
@@ -523,8 +523,8 @@ margin-right: 0;
   list-style-type: none;
   display: grid;
   grid-auto-rows: minmax(100px, auto);
-  grid-gap: 1px;
-  grid-template-columns: repeat(3, .5fr);
+  grid-gap: 2px;
+  grid-template-columns: repeat(3, 1fr);
 }
 .portfolio li:nth-child(1){
   grid-column: 1 / -1;
@@ -546,9 +546,13 @@ margin-right: 0;
 }
 .title p{
   display: inline-block;
-
+  font-weight: normal;
+  margin: 0 auto;
+  text-align: center;
 }
 .title a{
   margin-left: 20px;
-
+}
+.title h1{
+  padding-top: 50px;
 }
