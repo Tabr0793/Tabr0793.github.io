@@ -386,7 +386,7 @@ margin-right: 0;
     z-index: 100;
   }
 
- /* body */
+ /* Bio */
 
  }
   .container-hero.hero {
@@ -394,7 +394,6 @@ margin-right: 0;
     justify-content: space-between;
     max-width: inherit;
   }
-  /*hero*/
 
   .container-hero p {
     position:relative;
@@ -414,7 +413,13 @@ margin-right: 0;
   padding-top: 50px;
   }
 }
-
+@media (min-width: 700px) {
+.container-hero.hero p {
+margin-top: 150px;
+margin-right: auto;
+margin-left: auto;
+  }
+}
 @media (min-width: 752px) {
 .container-hero.hero p {
 margin-top: 200px;
