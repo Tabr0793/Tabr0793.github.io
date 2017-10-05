@@ -327,7 +327,7 @@ margin-right: 0;
   }
   header nav {
     padding:1em 0;
-    position: fixed;
+    position: relative;
     z-index: 60;
   }
   .header {
@@ -387,177 +387,15 @@ margin-right: 0;
   }
 
  /* body */
-
+ .container-hero p {
+   position:relative;
+   margin-top: 30px;
+   padding-top: 30px;
+   padding-bottom: 40px;
+   max-height: 216;
  }
-  .container-hero.hero {
-    display: flex;
-    justify-content: space-between;
-    max-width: inherit;
-  }
-  /*hero*/
 
-  .container-hero p {
-    position:relative;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 40px;
-    max-height: 216;
-  }
-
-  @media (min-width: 700px) {
-  .container-hero.hero p {
-  position:absolute;
-  line-height: 12px;
-  font-size: 8px;
-  line-height: 18px;
-  margin-top: 730px;
-  padding-top: 50px;
-  }
-}
-
-@media (min-width: 752px) {
-.container-hero.hero p {
-margin-top: 200px;
-margin-right: auto;
-margin-left: auto;
-  }
-}
-@media (min-width: 556px) {
-.container-hero.hero p {
-  line-height: 12px;
- font-size: 9px;
- line-height: 18px;
-  }
-}
-  @media (min-width: 670px) {
-  .container-hero.hero p {
-    line-height: 15px;
-   font-size: 9px;
-   line-height: 18px;
-  }
-}
-  @media (min-width: 615px) {
-  .container-hero.hero p {
-    line-height: 15px;
-   font-size: 9px;
-   line-height: 18px;
-  }
-}
-@media (min-width: 672px) {
-.container-hero.hero p {
-  line-height: 16px;
- font-size: 11px;
- line-height: 18px;
-}
-}
-  @media (min-width: 725px) {
-  .container-hero.hero p {
-    line-height: 15px;
-   font-size: 11px;
-   line-height: 18px;
-  }
-}
-
-@media (min-width: 754px) {
-.container-hero.hero p {
-  line-height: 15px;
- font-size: 11px;
- line-height: 18px;
-  }
-}
-@media (min-width: 791px) {
-.container-hero.hero p {
-  line-height: 15px;
- font-size: 11px;
- line-height: 20px;
-  }
-}
-@media (min-width: 950px) {
-.container-hero.hero p {
-  line-height: 15px;
- font-size: 11px;
- line-height: 20px;
-  }
-}
-@media (min-width: 962px) {
-.container-hero.hero p {
-  line-height: 15px;
- font-size: 11px;
- line-height: 22px;
-  }
-}
-  @media (min-width: 1003px) {
-  .container-hero.hero p {
-    line-height: 15px;
-   font-size: 11px;
-   line-height: 24px;
-  }
-}
-@media (min-width: 1086px) {
-.container-hero.hero p {
-  line-height: 15px;
- font-size: 12px;
- line-height: 24px;
-  }
-}
-@media (min-width: 1250px) {
-.container-hero.hero p {
- font-size: 14px;
- line-height: 24px;
-  }
-}
-
-  .animated.fadeIn {
-    margin-top: 200px;
-    position: inherit;
-  }
-  @media (min-width: 700px) {
-  .animated.fadeIn {
-    margin-top: 350px;
-    position: inherit;
-  }
-}
-p.animated.fadeIn {
-  margin-top: 0px;
-  position: inherit;
-}
-@media (min-width: 700px) {
-p.animated.fadeIn {
-  margin-top: 350;
-  }
-}
-  @media (max-width: 1074px) {
-    .animated.fadeIn {
-      font-size: 20px;
-    }
-  }
-}
-@media (max-width: 917px) {
-  .animated.fadeIn {
-    font-size: 18px;
-  }
-}
-  @media (max-width: 885px) {
-    .animated.fadeIn {
-      font-size: 14px;
-    }
-  }
-
-  @media (max-width: 445px) {
-    .animated.fadeIn {
-      margin-left:0 ;
-      margin-top: 250px;
-      position: inherit;
-      font-size: 16px;
-    }
-  }
-  @media (max-width: 580px) {
-    .animated.fadeIn {
-      margin-left:0 ;
-      margin-top: 250px;
-      position: inherit;
-    }
-  }
+ 
 
   /*Drawings*/
   .drawing-link {
