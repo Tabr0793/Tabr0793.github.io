@@ -865,6 +865,7 @@ footer .right-footer-block {
   border-radius: 0px;
   left: 10px;
   top: 18px;
+  z-index: 1000;
 }
  @media (min-width: 400px) {
 .hamburger {
