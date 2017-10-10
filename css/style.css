@@ -373,7 +373,7 @@ margin-right: 0;
     margin: 0 auto;
     align-items: center;
     position: fixed;
-    z-index: 60;
+    z-index: 1;
     background-color: #EDEEF1;
   }
 }
@@ -403,7 +403,7 @@ margin-right: 0;
     display: inline-block;
     margin:0 15px;
     position: relative;
-    z-index: 100;
+    z-index: 1;
   }
  /* Bio */
 
@@ -857,16 +857,20 @@ footer .right-footer-block {
  }
 .hamburger {
   position: fixed;
-  z-index: 1000;
-  background:#E4E4E7;
+  z-index: 100;
   color:#425464;
   text-decoration: none;
   font-size: 20px;
-  padding: 5px 7.5px;
-  border-radius: 4px;
+  padding-top: 0px;
+  border-radius: 0px;
   left: 10px;
   top: 18px;
 }
+ @media (min-width: 400px) {
+.hamburger {
+  padding-top: 10px;
+}
+  }
  @media (min-width: 460px) {
  .hamburger {
    position: fixed;
