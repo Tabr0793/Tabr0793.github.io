@@ -333,7 +333,6 @@ margin-right: 0;
 @media (min-width: 700px){
 .site-logo {
   display: inline-grid;
-  padding-right: 20px;
   }
 }
 @media (min-width: 400px) {
@@ -532,7 +531,7 @@ margin-left: auto;
 
   .animated.fadeIn {
     margin-top: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
     position: inherit;
   }
   @media (min-width: 700px) {
@@ -869,21 +868,19 @@ footer .right-footer-block {
 }
  @media (min-width: 400px) {
 .hamburger {
-  padding-top: 10px;
+  padding-top: 9px;
 }
   }
  @media (min-width: 460px) {
  .hamburger {
    position: fixed;
-   z-index: 1000;
-   background:#E4E4E7;
+   z-index: 1000;;
    color:#425464;
    text-decoration: none;
    font-size: 22px;
    padding: 5px 7.5px;
    border-radius: 4px;
    left: 10px;
-   top: 14px;
    }
  }
  @media (min-width: 850px) {
@@ -914,7 +911,7 @@ footer .right-footer-block {
  .left-nav .items ul {
    margin-bottom:0 0 40px;
    margin-top: 70px;
-   padding:0;
+   padding-left: 8px;
  }
  .left-nav .items ul li {
    list-style-type: none;
@@ -928,7 +925,7 @@ footer .right-footer-block {
  .left-nav .items ul li a i {
    width:16px;
    text-align: center;
-   margin-right:8px;
+   margin-right:7px;
 }
 .items .active {
   color:#FFFFFF;
@@ -1127,5 +1124,5 @@ footer .right-footer-block {
  }
 /* selected link */
 a:active {
-    color: #0000FF;
+    color: #1A96E2;
 }
