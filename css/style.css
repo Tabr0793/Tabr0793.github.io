@@ -39,20 +39,7 @@ html, body{
   margin-top: 22px;
 }
 
- .bg img {
-  display: none;
- }
- @media (min-width: 700px) {
- .bg img {
-  display: block;
-  opacity: .6;
-  z-index: -1;
-  padding-top: 40px;
-  margin: 0;
-  overflow: hidden;
-  float: right;
-  }
- }
+
  h1, h2, h3, h4, h5, h6 {
    font-family: "semplicita pro", Helvetica, Arial, sans-serif;
  }
@@ -360,7 +347,7 @@ margin-right: 0;
     margin: 0 auto;
     align-items: center;
     position: fixed;
-    z-index: 60;
+    z-index: 1;
     background-color: #EDEEF1;
   }
 
@@ -369,11 +356,6 @@ margin-right: 0;
     display: flex;
     justify-content: space-between;
     max-width: 1450px;
-    margin: 0 auto;
-    align-items: center;
-    position: fixed;
-    z-index: 1;
-    background-color: #EDEEF1;
   }
 }
   .one-fifth {
