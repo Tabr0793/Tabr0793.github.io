@@ -9,124 +9,12 @@ html, body{
    margin: 0;
    background: #F4F6F8;
  }
-
-@media screen and (min-width: 768px) {
-  .image-bg {
-    background-image: url(../images/my-photo.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
-  }
-}
-.site-bio {
-  background-color: rgba(236, 238, 240, .5);
-  color:#425464;
-  padding: 30px 0;
-}
-
-.site-bio p {
-  margin-top: 0;
-  margin-left: 0;
-  line-height: 1.4;
-}
-
-@media screen and (min-width: 600px) {
-  .site-bio p {
-    width: 50%;
-  }
-}
-
-.site-bio p + p {
-  margin-top: 22px;
-}
-.case-study-info {
-  background-color: #425464;
-  color:#F3F3F6;
-  padding: 30px 0;
-}
-.case-study-info p {
-  margin-top: auto;
-  margin-left: auto;
-  line-height: 1.4;
-}
-@media screen and (min-width: 600px) {
-.case-study-info h2 {
-margin-left: 22.4%;
-}
-  }
-
-@media screen and (min-width: 600px) {
-  .case-study-info p {
-    width: 55%;
-  }
-}
-.case-study-info p + p {
-  margin-top: 22px;
-}
-
-
-.more-info {
-  background-color: rgba(236, 238, 240, .5);
-  color:#425464;
-  padding: 30px 0;
-}
-.more-info p {
-  margin-top: auto;
-  margin-left: auto;
-  line-height: 1.4;
-}
-@media screen and (min-width: 600px) {
-.more-info h2 {
-margin-left: 22.4%;
-}
-  }
-
-@media screen and (min-width: 600px) {
-  .more-info p {
-    width: 55%;
-  }
-}
-.more-info p + p {
-  margin-top: 22px;
-}
-.research-img{
-  position: relative;
-  float: center;
-  width: 100%;
-  max-width: 1440px;
-  margin-bottom: 100px auto;
-  margin: 0 auto;
-  display: block;
-  padding-top: 20px;
-}
-
-img.scrib-cover{
-  position: relative;
-  float: center;
-  width: 100%;
-  max-width: 1440px;
-  margin-bottom: 100px auto;
-  margin: 0px;
-  display: block;
-}
-img.scrib-ext1{
-  position: relative;
-  width: 50%;
-  max-width: 1440px;
-  margin-bottom: 100px auto;
-  margin: 0px;
-  display: block;
-}
-.container-hero {
-  font-size: 0;
-}
-
  h1, h2, h3, h4, h5, h6 {
    font-family: "semplicita pro", Helvetica, Arial, sans-serif;
  }
  h1{
    letter-spacing: 5px;
    line-height: 70px;
-   text-align: right;
    font-size: 30px;
    text-transform: uppercase;
  }
@@ -150,15 +38,15 @@ img.scrib-ext1{
   text-decoration: none;
   font-size: 13px;
   text-transform: uppercase;
-}
-a:hover {
+ }
+ a:hover {
   color: #42E8E3;
-}
-a:active {
+ }
+ a:active {
   color: #1A96E2;
   text-decoration: underline;
-}
-@media (min-width: 620px) {
+ }
+ @media (min-width: 620px) {
   h2 {
      font-size:28px;
      font-weight: normal;
@@ -178,34 +66,220 @@ a:active {
    align-self: flex-start;
    padding-left: 10px;
    padding-top: 10px;
-}
-@media (min-width: 500px) {
+ }
+ @media (min-width: 500px) {
   header .site-logo img {
     max-width: 80%;
     max-height: auto;
     padding-left: 45px;
   }
-}
+ }
 
-@media (min-width: 700px) {
+ @media (min-width: 700px) {
   header .site-logo img {
     max-width: 100%;
     max-height: auto;
     padding-left: 45px;
   }
-}
-@media (min-width: 850px) {
-header .site-logo img {
+ }
+ @media (min-width: 850px) {
+ header .site-logo img {
   max-width: 100%;
   max-height: auto;
   padding-top: 0px;
   }
+ }
+@media screen and (min-width: 768px) {
+  .image-bg {
+    background-image: url(../images/my-photo.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
 }
-p.bio{
-margin-right: 55px;
-margin-left: 55px;
-padding-top: 0px;"
+.wrap {
+ padding-top: 30px;
+ display:flex;
+ width:90%;
+ margin:auto;
 }
+.initiative p {
+ margin:0px auto;
+ text-align:left;
+ display:inline-block;
+ width:1000;
+ height:200px;
+ padding-right: 10px;
+ margin-top: 0;
+ margin-left: 0;
+ line-height: 1.4;
+}
+
+.initiative a {
+  font-size: 11px;
+  text-transform: lowercase;
+  display: inline-flex;
+  padding-right: 5px;
+
+}
+.initiative h2 {
+  text-align: left;
+
+}
+@media screen and (min-width: 600px) {
+  .initiative p {
+    width: 50%;
+  }
+}
+.site-bio {
+  background-color: rgba(236, 238, 240, .5);
+  color:#425464;
+  padding: 30px 0;
+}
+.site-bio p {
+  margin-top: 0;
+  margin-left: 0;
+  line-height: 1.4;
+}
+.site-bio p + p {
+  margin-top: 22px;
+}
+.site-bio a {
+  font-size: 11px;
+  text-transform: lowercase;
+  display: inline-flex;
+  padding-right: 5px;
+
+}
+@media screen and (min-width: 600px) {
+  .site-bio p {
+    width: 50%;
+  }
+}
+.division p{
+  background-color: #bcbcbc;
+  margin: 0;
+  margin-top: 0;
+}
+.company-info {
+  background-color: rgba(236, 238, 240, .5);
+  color:#425464;
+  padding: 30px 0;
+  padding-bottom: 40px;
+}
+.company-info p {
+  margin-top: auto;
+  margin-left: auto;
+  text-align: center;
+  line-height: 1.6;
+}
+@media screen and (min-width: 600px) {
+.company-info h1 {
+margin: auto 0;
+text-align: center;
+
+}
+  }
+@media screen and (min-width: 600px) {
+  .company-info p {
+    width: 55%;
+  }
+}
+.company-info p + p {
+  margin-top: 22px;
+}
+
+.case-study-info {
+  background-color: #425464;
+  color:#F3F3F6;
+  padding: 30px 0;
+}
+.case-study-info p {
+  margin-top: auto;
+  margin-left: auto;
+  line-height: 1.6;
+}
+@media screen and (min-width: 600px) {
+.case-study-info h2 {
+margin-left: 22.4%;
+}
+  }
+
+@media screen and (min-width: 600px) {
+  .case-study-info p {
+    width: 55%;
+  }
+}
+.case-study-info p + p {
+  margin-top: 22px;
+}
+
+.more-info {
+  background-color: rgba(236, 238, 240, .5);
+  color:#425464;
+  padding: 30px 0;
+}
+.more-info p {
+  margin-top: auto;
+  margin-left: auto;
+  line-height: 1.6;
+}
+@media screen and (min-width: 600px) {
+.more-info h2 {
+margin-left: 22.4%;
+}
+  }
+@media screen and (min-width: 600px) {
+  .more-info p {
+    width: 55%;
+  }
+}
+.more-info p + p {
+  margin-top: 22px;
+}
+.research-img{
+  position: relative;
+  float: center;
+  width: 100%;
+  max-width: 1440px;
+  margin-bottom: 100px auto;
+  margin: 0 auto;
+  display: block;
+  padding-top: 20px;
+}
+
+img.scrib-cover{
+  padding-top: 30px;
+  position: relative;
+  float: center;
+  width: 100%;
+  max-width: 1440px;
+  margin-bottom: 100px auto;
+  margin: 0px;
+  display: block;
+}
+@media screen and (min-width: 600px) {
+img.scrib-cover{
+  position: relative;
+  float: center;
+  width: 100%;
+  max-width: 1440px;
+  margin-bottom: 100px auto;
+  margin: 0px;
+  display: block;
+  }
+}
+img.scrib-ext1{
+  position: relative;
+  width: 50%;
+  max-width: 1440px;
+  margin-bottom: 100px auto;
+  margin: 0px;
+  display: block;
+}
+.container-hero {
+  font-size: 0;
+}
+
  /* GRID */
 .container {
   margin-right: auto;
