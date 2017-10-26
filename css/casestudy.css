@@ -40,10 +40,10 @@ html, body{
   text-transform: uppercase;
  }
  a:hover {
-  color: #42E8E3;
+  color: #F7D59D;
  }
  a:active {
-  color: #1A96E2;
+  color: #F5AF3C;
   text-decoration: underline;
  }
  @media (min-width: 620px) {
@@ -61,32 +61,31 @@ html, body{
    }
  }
  header .site-logo img {
-   max-width: 50%;
-   height: auto;
+   max-width: 40%;
    align-self: flex-start;
    padding-left: 10px;
    padding-top: 10px;
  }
  @media (min-width: 500px) {
   header .site-logo img {
-    max-width: 80%;
-    max-height: auto;
-    padding-left: 45px;
+    max-width: 25%;
+    padding-left: 20px;
+    padding-bottom: 10px;
   }
  }
 
  @media (min-width: 700px) {
   header .site-logo img {
-    max-width: 100%;
-    max-height: auto;
-    padding-left: 45px;
+    max-width: 25%;
+    padding-left: 20px;
+
   }
  }
  @media (min-width: 850px) {
  header .site-logo img {
-  max-width: 100%;
-  max-height: auto;
+  max-width: 80%;
   padding-top: 0px;
+  padding-bottom: 0px;
   }
  }
 @media screen and (min-width: 768px) {
@@ -97,13 +96,12 @@ html, body{
   }
 }
 .initiative {
-  background-image: linear-gradient(206deg, #f7d59d 0%, #E4E4E7 45%,#f7d59d 94%);
+  background-image: linear-gradient(206deg, #F7D59D 0%, #E4E4E7 45%,rgba(247, 212, 42, 0) 94%);
   position: relative;
 }
 .wrap {
- padding-top: 30px;
+ padding-top: 10px;
  display:flex;
- width:95%;
  margin:auto;
 }
 .initiative p {
@@ -178,15 +176,14 @@ html, body{
   line-height: 1.6;
 }
 @media screen and (min-width: 600px) {
-.company-info h1 {
+.company-info h2 {
 margin: auto 0;
-
-
+padding-bottom: 15px;
 }
   }
 @media screen and (min-width: 600px) {
   .company-info p {
-    width: 55%;
+    width: 47%;
   }
 }
 .company-info p + p {
