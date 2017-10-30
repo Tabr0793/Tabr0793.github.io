@@ -27,11 +27,9 @@ html, body{
  }
  p {
    font-family: "termina", Helvetica, Arial, sans-serif;
-   float: left;
    font-size:10px;
    line-height: 19px;
    font-weight: 100;
-   margin-top: 80px;
   }
   A {
   color: #425464;
@@ -58,6 +56,24 @@ html, body{
      font-size:13px;
      line-height: 19px;
      font-weight: 100;
+   }
+ }
+ .scrib-cover {
+   background-image: url(../images/scribble_title.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   position: relative;
+   padding-top: 25px;
+   float: center;
+   width: 100%;
+   max-width: 1440px;
+   margin-bottom: 100px auto;
+   margin: 0px;
+   display: block;
+ }
+ @media screen and (min-width: 600px) {
+ .scrib-cover{
+    padding-top: 30px;
    }
  }
  header .site-logo img {
@@ -88,33 +104,44 @@ html, body{
   padding-bottom: 0px;
   }
  }
-@media screen and (min-width: 768px) {
-  .image-bg {
-    background-image: url(../images/my-photo.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
-  }
-}
 .initiative {
-  background-image: linear-gradient(206deg, #F7D59D 0%, #E4E4E7 45%,rgba(247, 212, 42, 0) 94%);
+  background-image: linear-gradient(206deg, #fbca58 0%, #E4E4E7 45%,rgba(247, 212, 42, 0) 94%);
   position: relative;
 }
 .wrap {
  padding-top: 10px;
- display:flex;
  margin:auto;
+}
+@media screen and (min-width: 600px) {
+.wrap {
+ padding-top: 10px;
+ display:inline-flex;
+ margin:auto;
+  }
 }
 .initiative p {
  margin:0px auto;
  text-align:left;
  display:inline-block;
  width:1000;
- margin-bottom: 40px;
-
+ margin-bottom: 10px;
  padding-right: 10px;
  margin-top: 0;
  margin-left: 0;
  line-height: 1.4;
+}
+@media screen and (min-width: 600px) {
+.initiative p {
+ margin:0px auto;
+ text-align:left;
+ display:inline-block;
+ width:1000;
+ margin-bottom: 40px;
+ padding-right: 10px;
+ margin-top: 0;
+ margin-left: 0;
+ line-height: 1.4;
+ }
 }
 
 .initiative a {
@@ -163,27 +190,71 @@ html, body{
   margin: 0;
   margin-top: 0;
 }
+.company-info img {
+  max-width: 100%;
+  float: center;
+  display: block;
+  margin: auto;
+}
+
+.company-info  {
+  background-image: linear-gradient(180deg, #FBDA61 0%, #F76B1C 90%);
+  color:#fff;
+  padding-top: 50px;
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  display: block;
+}
+@media screen and (min-width: 600px) {
 .company-info {
-  background-color: rgba(236, 238, 240, .5);
-  color:#425464;
-  padding: 30px 0;
-  padding-bottom: 40px;
+  padding-top: 150px;
+  }
 }
-.company-info p {
-  margin-top: auto;
-  margin-left: auto;
-  text-align: left;
-  line-height: 1.6;
-}
+
 @media screen and (min-width: 600px) {
 .company-info h2 {
-margin: auto 0;
-padding-bottom: 15px;
+margin: auto;
+padding-top: 10px;
+width: 80%;
 }
   }
+@media screen and (min-width: 800px) {
+  .company-info h2 {
+  margin: auto;
+  padding-top: 10px;
+  width: 60%;
+}
+  }
+@media screen and (min-width: 1200px) {
+  .company-info h2 {
+  margin: auto;
+  padding-top: 10px;
+  width: 50%;
+}
+  }
+  .company-info p {
+  margin: auto;
+  line-height: 1.6;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 100%;
+  font-size: 14px;
+}
 @media screen and (min-width: 600px) {
   .company-info p {
-    width: 47%;
+    width: 80%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .company-info p {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .company-info p {
+    width: 50%;
   }
 }
 .company-info p + p {
@@ -221,10 +292,9 @@ margin-left: 22.4%;
   padding: 30px 0;
 }
 .more-info p {
-  margin-top: auto;
-  margin-left: auto;
+  margin: auto;
   line-height: 1.6;
-  float: left;
+  margin-top: 0px;
 }
 @media screen and (min-width: 600px) {
   .more-info p {
@@ -234,6 +304,19 @@ margin-left: 22.4%;
 .more-info p + p {
   margin-top: 22px;
 }
+.more-info h2 {
+  margin: auto;
+  width: 100%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+@media screen and (min-width: 600px) {
+.more-info h2 {
+  margin: auto;
+  width: 55%;
+  }
+}
+
 .research-img{
   position: relative;
   float: center;
@@ -243,36 +326,6 @@ margin-left: 22.4%;
   margin: 0 auto;
   display: block;
   padding-top: 20px;
-}
-
-img.scrib-cover{
-  padding-top: 30px;
-  position: relative;
-  float: center;
-  width: 100%;
-  max-width: 1440px;
-  margin-bottom: 100px auto;
-  margin: 0px;
-  display: block;
-}
-@media screen and (min-width: 600px) {
-img.scrib-cover{
-  position: relative;
-  float: center;
-  width: 100%;
-  max-width: 1440px;
-  margin-bottom: 100px auto;
-  margin: 0px;
-  display: block;
-  }
-}
-img.scrib-ext1{
-  position: relative;
-  width: 50%;
-  max-width: 1440px;
-  margin-bottom: 100px auto;
-  margin: 0px;
-  display: block;
 }
 .container-hero {
   font-size: 0;
