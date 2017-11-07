@@ -9,15 +9,18 @@ html, body{
    margin: 0;
    background: #F4F6F8;
  }
- h1, h2, h3, h4, h5, h6 {
+ h1, {
+   font-family: "bello pro" Helvetica, Arial, sans-serif;
+}
+ h2, h3, {
    font-family: "semplicita pro", Helvetica, Arial, sans-serif;
  }
- h1{
-   letter-spacing: 5px;
-   line-height: 70px;
-   font-size: 30px;
-   text-transform: uppercase;
- }
+ h4, h5, h6{
+    font-family: "bello pro", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    line-height: 1.2em;
+  }
  h2 {
    font-size:16px;
    font-weight: normal;
@@ -105,7 +108,7 @@ html, body{
   }
  }
 .initiative {
-  background-image: linear-gradient(206deg, #fbca58 0%, #E4E4E7 45%,rgba(247, 212, 42, 0) 94%);
+  background-image: linear-gradient(206deg, #F76B1C 0%, #fbca58 45%,rgba(247, 212, 42, 0) 80%);
   position: relative;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -130,18 +133,12 @@ html, body{
  padding-right: 10px;
  margin-top: 0;
  margin-left: 0;
+ font-size: 13px;
  line-height: 1.4;
 }
 @media screen and (min-width: 600px) {
 .initiative p {
- margin:0px auto;
- text-align:left;
- display:inline-block;
- width:1000;
- margin-bottom: 40px;
- padding-right: 10px;
- margin-top: 0;
- margin-left: 0;
+ margin-bottom: 20px;
  line-height: 1.4;
  }
 }
@@ -159,7 +156,8 @@ html, body{
 }
 @media screen and (min-width: 600px) {
   .initiative p {
-    width: 45%;
+    width: 60%;
+    font-size: initial
   }
 }
 .site-bio {
@@ -212,6 +210,7 @@ html, body{
 @media screen and (min-width: 1200px) {
 .company-info img {
   padding-left: 40px;
+  padding-top: 20px;
 }
   }
 
@@ -231,27 +230,30 @@ html, body{
   text-align: center;
   }
 }
-.company-info h2 {
+.company-info h1 {
 text-align: center;
 margin: auto;
+padding-top: 20px;
+font-size: 25px;
 }
   }
 
 @media screen and (min-width: 600px) {
-.company-info h2 {
+.company-info h1 {
 padding-top: 20px;
 width: 80%;
 margin: auto;
 }
   }
 @media screen and (min-width: 800px) {
-  .company-info h2 {
-  width: 60%;
+  .company-info h1 {
+  font-size: 35px;
 }
   }
 @media screen and (min-width: 1200px) {
-  .company-info h2 {
+  .company-info h1 {
   padding-top: 20px;
+  font-size: 40px;
 }
   }
   .company-info p {
@@ -301,16 +303,25 @@ margin-left: 22.4%;
 .more-info {
   background-color: rgba(236, 238, 240, .5);
   color:#425464;
-  padding: 30px 0;
+  padding: 20px 0;
 }
 .more-info p {
   margin: auto;
   line-height: 1.6;
   margin-top: 0px;
+  font-size: 13px;
 }
 @media screen and (min-width: 600px) {
   .more-info p {
+    width: 70%;
+    font-size: initial;
+    padding-bottom: 0px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .more-info p {
     width: 55%;
+    font-size: initial;
   }
 }
 .more-info p + p {
@@ -319,13 +330,49 @@ margin-left: 22.4%;
 .more-info h2 {
   margin: auto;
   width: 100%;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   padding-top: 20px;
 }
 @media screen and (min-width: 600px) {
 .more-info h2 {
   margin: auto;
+  width: 70%;
+  }
+}
+@media screen and (min-width: 800px) {
+.more-info h2 {
+  margin: auto;
   width: 55%;
+  }
+}
+.more-info h4 {
+  margin: auto;
+  padding-top: 30px;
+  width: 70%;
+  float: center;
+  font-size: x-small;
+  }
+@media screen and (min-width: 600px) {
+  .more-info h4 {
+    font-size: small;
+    }
+  }
+@media screen and (min-width: 800px) {
+  .more-info h4 {
+    font-size: small;
+    }
+  }
+@media screen and (min-width: 992px) {
+.more-info h4 {
+  padding-left: 2%;
+  width: 100%;
+  font-size: medium;
+  }
+}
+@media screen and (min-width: 1200px) {
+.more-info h4 {
+  padding-left: 7%;
+  width: 100%;
   }
 }
 
