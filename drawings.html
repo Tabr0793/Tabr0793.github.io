@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
 
+
   <title>Taylor Brown</title>
   <!-- Typekit Fonts -->
   <script src="https://use.typekit.net/lxl6fvg.js"></script>
@@ -13,8 +14,9 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/dropit.css">
-</head>
+  <link rel="stylesheet" href="css/pop-up_img.css">
 
+</head>
 <!-- RESPONSIVE NAV -->
    <a class="hamburger" id="menu" href="#">&#9776;</a>
    <!-- LEFT NAV -->
@@ -69,52 +71,63 @@
   <section class="container drawing-links" style = "padding-bottom: 100px;">
       <div class = "title">
             <h1 style="margin-top: 0px; margin-bottom: 0;">drawings</h1>
-            <p> MY LATEST WORK.
-            <a href="portfolio-links.html" class="portfolio-links">see more></a></p>
+            <p>FREE TIME CREATIONS.</p>
       </div>
         <ul class ="drawing-link">
           <li>
-            <a href="drawing.html">
-              <img src="images/dancer.png" alt="DRAWING">
+              <img src="images/dancer.png" style="width:100%;cursor:pointer"
+              onclick="onClick(this)" class="w3-hover-opacity"></a>
             </a>
           </li>
           <li>
-            <a href="drawing.html">
-              <img src="images/arch.png" alt="DRAWING">
+              <img src="images/arch.png" style="width:100%;cursor:pointer"
+              onclick="onClick(this)" class="w3-hover-opacity">
             </a>
           </li>
           <li>
-            <a href="drawing.html">
-              <img src="images/woman.png" alt="DRAWING">
+              <img src="images/woman.png" style="width:100%;cursor:pointer"
+              onclick="onClick(this)" class="w3-hover-opacity">
             </a>
           </li>
           <li>
-            <a href="drawing.html">
-              <img src="images/ping.png" alt="DRAWING">
+              <img src="images/ping.png" style="width:100%;cursor:pointer"
+              onclick="onClick(this)" class="w3-hover-opacity">
             </a>
           </li>
           <li>
-            <a href="drawing.html">
-              <img src="images/sangimignano.png" alt="DRAWING">
+              <img src="images/sangimignano.png" style="width:100%;cursor:pointer"
+              onclick="onClick(this)" class="w3-hover-opacity">
             </a>
           </li>
         </ul>
       </section>
+
+      <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <div class="w3-modal-content w3-animate-zoom">
+          <img id="img01" style="width:100%">
+        </div>
+      </div>
+
+      <script>
+      function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+      }
+      </script>
+
+      </body>
+      </html>
+
+
+
     <footer>
       <div class="container footer-nav-block">
         <div class="left-footer-block one-third">
           <p class="copyright-block">&copy; 2017. <strong>taylor brown</strong> - All Rights Reserved.</p>
         </div>
       </div>
+
     </footer>
-    <script src="js/jquery-3.2.1.min.js"></script>
-       <script src="js/dropit.js"></script>
-       <script type="text/javascript">
-         $(".menu").dropit();
-        $(".settings-menu").dropit();
-         $( "#menu" ).click(function() {
-             $("#left-nav").toggleClass("open", 200);
-         });
-       </script>
   </body>
 </html>
