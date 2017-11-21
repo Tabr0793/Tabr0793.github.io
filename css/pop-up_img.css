@@ -132,7 +132,7 @@ textarea {
 }
 @media (min-width: 830px){
 .site-logo {
-min-width:100%;
+min-width:40%;
   }
 }
 @media (min-width: 700px){
@@ -140,7 +140,6 @@ min-width:100%;
     min-width: 85%;
   }
 }
-
 @media (min-width: 850px){
   header .site-logo img {
     min-width: 95%;
