@@ -570,17 +570,6 @@ p.animated.fadeIn {
       margin-bottom: 80px;
     }
   }
-}
-@media (max-width: 917px) {
-  .animated.fadeIn {
-    font-size: 18px;
-  }
-}
-  @media (max-width: 885px) {
-    .animated.fadeIn {
-      font-size: 14px;
-    }
-  }
 
   @media (max-width: 445px) {
     .animated.fadeIn {
