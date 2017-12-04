@@ -9,6 +9,58 @@ html, body{
    margin: 0;
    background: #F4F6F8;
  }
+  h1,h2, h3, h4, h5, h6 {
+    font-family: "semplicitapro", Helvetica, Arial, sans-serif;
+  }
+  h1{
+    letter-spacing: 5px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  h2 {
+    font-size:16px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    margin: 0, auto;
+    text-transform: uppercase;
+  }
+  p {
+    font-family: "termina", Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+    font-size:10px;
+    line-height: 19px;
+    font-weight: 100;
+    margin-top: 80px;
+   }
+   A {
+   color: #425464;
+   text-decoration: none;
+   font-size: 13px;
+   text-transform: uppercase;
+ }
+ a:active {
+   color: #42E8E3;
+   text-decoration: underline;
+ }
+ a:hover {
+   color: #1A96E2;
+ }
+ @media (min-width: 620px) {
+   h2 {
+      font-size:28px;
+      font-weight: normal;
+      margin-bottom: 5px;
+    }
+  }
+  @media (min-width: 768px) {
+    p {
+      font-size:13px;
+      line-height: 19px;
+      font-weight: 100;
+    }
+  }
 .image-bg {
   background-image: url(../images/my-photo2.png);
   background-repeat: no-repeat;
@@ -56,60 +108,6 @@ html, body{
 .site-bio p + p {
   margin-top: 22px;
 }
-
-
- h1, h2, h3, h4, h5, h6 {
-   font-family: "semplicita pro", Helvetica, Arial, sans-serif;
- }
- h1{
-   letter-spacing: 5px;
-   line-height: 70px;
-   text-align: center;
-   font-size: 30px;
-   text-transform: uppercase;
- }
- h2 {
-   font-size:16px;
-   font-weight: normal;
-   margin-bottom: 5px;
-   margin: 0, auto;
-   text-transform: uppercase;
- }
- p {
-   font-family: "termina", Helvetica, Arial, sans-serif;
-   margin: 0 auto;
-   font-size:10px;
-   line-height: 19px;
-   font-weight: 100;
-   margin-top: 80px;
-  }
-  A {
-  color: #425464;
-  text-decoration: none;
-  font-size: 13px;
-  text-transform: uppercase;
-}
-a:active {
-  color: #42E8E3;
-  text-decoration: underline;
-}
-a:hover {
-  color: #1A96E2;
-}
-@media (min-width: 620px) {
-  h2 {
-     font-size:28px;
-     font-weight: normal;
-     margin-bottom: 5px;
-   }
- }
- @media (min-width: 768px) {
-   p {
-     font-size:13px;
-     line-height: 19px;
-     font-weight: 100;
-   }
- }
  header .site-logo img {
    max-width: 80%;
    height: auto;
