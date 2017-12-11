@@ -63,6 +63,7 @@ html, body{
   }
 .image-bg {
   background-image: url(../images/my-photo2.png);
+  max-height: 100%;
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -82,7 +83,7 @@ html, body{
  }
 @media screen and (min-width: 768px) {
   .image-bg {
-    background-image: url(../images/my-photo.png);
+    background-image: url(../images/my-photo4.png);
     background-repeat: no-repeat;
     background-position: right bottom;
   }
@@ -109,10 +110,11 @@ html, body{
   margin-top: 22px;
 }
  header .site-logo img {
-   max-width: 80%;
+   max-width: 75%;
    height: auto;
    align-self: flex-start;
    padding-left: 0px;
+   margin-right: -250px;
    padding-top: 0px;
 }
 
@@ -125,8 +127,7 @@ html, body{
 }
 @media (min-width: 850px) {
 header .site-logo img {
-  max-width: 85%;
-  max-height: auto;
+  max-width: 95%;
   padding-top: 0px;
   margin-bottom: 8px;
   }
@@ -177,6 +178,11 @@ padding-top: 0px;"
    .container {
      max-width: 1200px;
    }
+@media (min-width: 1400px) {
+   .container {
+     max-width: 1400px;
+   }
+ }
    header nav ul {
   padding: 10px 15px;
   display: flex;
@@ -345,12 +351,14 @@ margin-right: 0;
 }
 @media (min-width: 650px){
 .site-logo {
-  margin-right: -5px;
+  min-width: 60%
   }
 }
 @media (min-width: 700px){
 .site-logo {
   display: inline-grid;
+  margin-top: 2px;
+  min-width: 35%
   }
 }
 @media (min-width: 850px){
@@ -386,7 +394,7 @@ header nav {
   .header {
     display: flex;
     justify-content: space-between;
-    max-width: 1450px;
+    max-width: 1750px;
   }
 }
 .one-fifth {
@@ -588,16 +596,22 @@ p.animated.fadeIn {
   }
 
   /*Drawings*/
+  .drawing-link {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-flow: dense;
+}
+@media (min-width: 500px) {
 .drawing-link {
-  display: grid;
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
   grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: minmax(100px, auto);
-  grid-auto-flow: dense;
+
+  }
 }
 @media (min-width: 600px) {
 .drawing-link {
@@ -612,14 +626,12 @@ p.animated.fadeIn {
   }
 }
 .drawing-link li:nth-child(1) {
-  grid-column: 1;
   background-image: url(../images/dancer.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   }
 .drawing-link li:nth-child(2) {
-  grid-column: 2;
   background-image: url(../images/arch.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -627,8 +639,6 @@ p.animated.fadeIn {
 }
 
 .drawing-link li:nth-child(3) {
-  grid-column: 3;
-  grid-row: span 1;
   background-image: url(../images/woman.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -636,7 +646,6 @@ p.animated.fadeIn {
 }
 
 .drawing-link li:nth-child(4) {
-  grid-column: 4;
   background-image: url(../images/ping.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -644,16 +653,12 @@ p.animated.fadeIn {
 }
 
 .drawing-link li:nth-child(5) {
-  grid-row: 2;
-  grid-column: 1;
   background-image: url(../images/sangimignano.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
 }
 .drawing-link li:nth-child(6) {
-  grid-row: 2;
-  grid-column: 2;
   background-image: url(../images/guy.png);
   background-position: center;
   -webkit-background-size: cover;
@@ -661,16 +666,12 @@ p.animated.fadeIn {
   -o-background-size: cover;
 }
 .drawing-link li:nth-child(7) {
-  grid-row: 2;
-  grid-column: 3;
   background-image: url(../images/milan.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
 }
 .drawing-link li:nth-child(8) {
-  grid-row: 2;
-  grid-column: 4;
   background-image: url(../images/me.png);
   width: auto;
   -webkit-background-size: cover;
@@ -832,6 +833,7 @@ footer .right-footer-block {
 @media (min-width: 992px){
   footer{
     height: 80px;
+    max-width: 1750px;
 }
   footer p, footer nav ul{
     padding: 2em 0;
@@ -922,15 +924,14 @@ footer .right-footer-block {
   color:#425464;
   text-decoration: none;
   font-size: 20px;
-  padding-top: 1px;
   border-radius: 0px;
-  left: 15px;
-  top: 18px;
+  padding-top: 15px;
+  left: 14px;
   z-index: 1000;
 }
  @media (min-width: 400px) {
 .hamburger {
-  top: 22px;
+  top: 5px;
 }
   }
  @media (min-width: 460px) {
@@ -948,7 +949,7 @@ footer .right-footer-block {
  }
  @media (min-width: 500px) {
    .hamburger {
-     top: 16px;
+     top: 15px;
 }
   }
 @media (min-width: 850px) {
