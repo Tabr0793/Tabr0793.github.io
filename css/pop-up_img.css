@@ -1,14 +1,12 @@
 html {
   box-sizing:border-box
 }
-*,*:before,*:after {
-  box-sizing:inherit
-}
 
 html {
   -ms-text-size-adjust:100%;
   -webkit-text-size-adjust:100%
 }
+
 body {
   margin:0
 }
@@ -18,8 +16,8 @@ article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summ
 audio,canvas,progress,video {
   display:inline-block
 }
-  progress {
-    vertical-align:baseline
+progress {
+  vertical-align:baseline
 }
 audio:not([controls]) {
   display:none;height:0
@@ -130,26 +128,7 @@ textarea {
 ::-webkit-file-upload-button {
   -webkit-appearance:button;font:inherit
 }
-@media (min-width: 830px){
-.site-logo {
-min-width:40%;
-  }
-}
-@media (min-width: 700px){
-  header .site-logo img {
-    min-width: 85%;
-  }
-}
-@media (min-width: 850px){
-  header .site-logo img {
-    min-width: 95%;
-  }
-}
-@media (min-width: 900px){
-  header .site-logo img {
-    min-width: 100%;
-  }
-}
+
 html {
   overflow-x:hidden
 }
@@ -163,9 +142,6 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-image{
   max-width:100%;
   height:auto
-}
-img {
-  margin-bottom:-5px
 }
 a {
   color:inherit

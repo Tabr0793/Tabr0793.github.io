@@ -20,7 +20,7 @@ html, body{
   }
   @media (max-width: 620px) {
    h4 {
-      font-size:14px;
+      font-size:13px;
     }
   }
   h1{
@@ -31,17 +31,17 @@ html, body{
     text-transform: uppercase;
   }
   h2 {
-    font-family: "termina";
-    font-size:16px;
+    font-family: "semplicitapro";
+    font-size:18px;
     font-weight: normal;
     margin-bottom: 5px;
     margin: 0, auto;
     text-transform: uppercase;
   }
   p {
-    font-family: "semplicitapro", Helvetica, Arial, sans-serif;
+    font-family: "freight-sans-pro", Helvetica, Arial, sans-serif;
     margin: 0 auto;
-    font-size:20px;
+    font-size:22px;
     line-height: 19px;
     font-weight: 100;
     margin-top: 80px;
@@ -61,14 +61,14 @@ html, body{
  }
  @media (min-width: 620px) {
   h2 {
-     font-size:24px;
+     font-size:26px;
      font-weight: normal;
      margin-bottom: 5px;
    }
  }
  @media (min-width: 768px) {
    p {
-     font-size:13px;
+     font-size:18px;
      line-height: 19px;
      font-weight: 100;
    }
@@ -136,6 +136,7 @@ html, body{
 }
 .initiative p {
  margin:0px auto;
+ font-size: initial;
  text-align:left;
  display:inline-block;
  width:1000;
@@ -143,13 +144,18 @@ html, body{
  padding-right: 10px;
  margin-top: 0;
  margin-left: 0;
- font-size: 13px;
+ font-size: 15px;
  line-height: 1.4;
 }
 @media screen and (min-width: 600px) {
 .initiative p {
  margin-bottom: 20px;
  line-height: 1.4;
+ }
+}
+@media screen and (min-width: 800px) {
+.initiative p {
+font-size: large;
  }
 }
 
@@ -167,7 +173,6 @@ html, body{
 @media screen and (min-width: 600px) {
   .initiative p {
     width: 60%;
-    font-size: initial
   }
 }
 .site-bio {
@@ -270,7 +275,7 @@ margin: auto;
   padding-top: 5px;
   padding-bottom: 40px;
   width: 100%;
-  font-size: 14px;
+  font-size: 18px;
   margin: auto;
   text-align: center;
 }
@@ -329,7 +334,7 @@ margin-left: 22.4%;
   margin: auto;
   line-height: 1.6;
   margin-top: 0px;
-  font-size: 13px;
+  font-size: 15px;
 }
 @media screen and (min-width: 600px) {
   .more-info p {
@@ -341,7 +346,7 @@ margin-left: 22.4%;
 @media screen and (min-width: 800px) {
   .more-info p {
     width: 55%;
-    font-size: initial;
+    font-size: large;
   }
 }
 .more-info p + p {
@@ -910,4 +915,11 @@ footer .right-footer-block {
   .container {
     width: 1170px;
   }
+}
+.color-image {
+  width: 45%;
+  margin: auto;
+  margin-top: 25px;
+  margin-right: 25%;
+  margin-left: 25%;
 }
