@@ -343,9 +343,13 @@ margin-right: 0;
  /* HEADER */
 
 .left-nav-site-logo{
+  background-color: rgba(236, 238, 240, .8);
+  padding-top: 15px;
+  padding-left: 23px;
+  padding-right: 57px;
+  padding-bottom: 10px;
   max-width: 190px;
-  margin-top: 20px;
-  margin-left: 21px;
+
 }
 .header {
   display: inline-flex;
