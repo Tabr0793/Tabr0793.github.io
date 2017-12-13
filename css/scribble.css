@@ -327,14 +327,13 @@ margin-left: 22.4%;
 .more-info-scribble {
   background-color: rgba(236, 238, 240, .5);
   color:#425464;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 .more-info-scribble p {
   margin: auto;
   line-height: 1.6;
   margin-top: 0px;
   font-size: 15px;
-  margin-bottom: 30px;
 }
 @media screen and (min-width: 600px) {
 .more-info-scribble p {
@@ -478,7 +477,7 @@ margin-left: 22.4%;
 .more-info-color {
   background-color: rgba(200, 204, 209, .1);
   color:#425464;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 .more-info-color p {
   margin: auto;
@@ -1067,14 +1066,30 @@ footer .right-footer-block {
   }
 }
 .color-image {
-  width: 45%;
+  width: 90%;
   margin: auto;
   margin-top: 80px;
-  margin-left: 4%;
+  margin-left: 5%;
 }
 .process-image {
+  width: 70%;
+  margin: auto;
+  margin-top: 60px;
+  margin-left: 13%;
+}
+.mock-image {
   width: 90%;
   margin: auto;
   margin-top: 60px;
-  margin-left: 4%;
+  padding: 5px;
+  background-color:#00000045;
+}
+@media (min-width: 650px) {
+  .mock-image {
+    width: 28%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 2.5%;
+    padding: 5px;
+  }
 }
