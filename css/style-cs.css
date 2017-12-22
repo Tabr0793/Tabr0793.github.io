@@ -7,7 +7,7 @@ html, body{
    font-weight: 400;
    color:#545558;
    margin: 0;
-   background-image: url(../images/intro-background.png);
+   background-image: url(../images/intro-backgroundcopy1.png.png);
    background: #010101;
  }
  main {
@@ -32,7 +32,7 @@ html, body{
     margin-bottom: 0px;
   }
   h2 {
-    color: #8d7d3e;
+    color: #40dfda;
     font-weight: normal;
     margin-top: 5px;
   }
@@ -60,11 +60,11 @@ html, body{
    text-decoration: underline;
  }
  a:hover {
-   color: #1A96E2;
+   color: #40dfda;
  }
  @media (min-width: 620px) {
    h2 {
-     color: #8d7d3e;
+     color: #40dfda;
      font-size: 28px;
      font-weight: normal;
      margin-bottom: 5px;
@@ -79,7 +79,7 @@ html, body{
     }
   }
   .intro-triangle {
-    background-image: url(../images/intro-back-text.png);
+    background-image: url(../images/intro-back-textcopy1.png);
     background-repeat: no-repeat;
     margin-top: 60px;
     background-size:cover;
@@ -109,28 +109,37 @@ html, body{
     color: white;
   }
 }
+.box {
+position: relative;
+}
+.box .btn {
+position:absolute;
+bottom:20px;
+left:20px;
+right:20px;
+}
 /* BUTTONS */
 .btn {
   border-radius: 4px;
-      color: #ffffff;
+   text-align: -webkit-center;
       font-weight: 200;
       text-decoration: none;
       font-family: "semplicitapro", Helvetica, Arial, sans-serif;
-      margin-left: 5%;
-      border: 2px solid #1b1e1f;
-      background-color: #1b1e1f;
+      margin:auto;
+      border: 2px solid #888d9c;
       box-shadow: 0px 0.5px 0px 0px #404352;
  }
- @media (min-width: 460px) {
+ @media (min-width: 600px) {
    .btn {
-     padding:10px 30px;
+     width: 150px;
+     padding: 10px 30px;
    }
  }
 .hero {
   background-attachment: fixed;
   max-height: 100%;
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position: right top;
   background-image: url(../images/intro-background.png);
   background-repeat: no-repeat;
   background-size:cover;
@@ -532,96 +541,7 @@ p.animated.fadeIn {
     }
   }
 
-  /*Drawings*/
-  .drawing-link {
-    display: grid;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: minmax(100px, auto);
-    grid-auto-flow: dense;
-}
-@media (min-width: 500px) {
-.drawing-link {
-  grid-template-columns: repeat(4, 1fr);
 
-  }
-}
-@media (min-width: 600px) {
-.drawing-link {
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  }
-}
-@media (min-width: 1200px) {
-.drawing-link {
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
-  }
-}
-.drawing-link li:nth-child(1) {
-  background-image: url(../images/dancer.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  }
-.drawing-link li:nth-child(2) {
-  background-image: url(../images/arch.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-
-.drawing-link li:nth-child(3) {
-  background-image: url(../images/woman.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-
-.drawing-link li:nth-child(4) {
-  background-image: url(../images/ping.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-
-.drawing-link li:nth-child(5) {
-  background-image: url(../images/sangimignano.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-.drawing-link li:nth-child(6) {
-  background-image: url(../images/guy.png);
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-.drawing-link li:nth-child(7) {
-  background-image: url(../images/milan.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-.drawing-link li:nth-child(8) {
-  background-image: url(../images/me.png);
-  width: auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-.drawing-link a {
-  display: inline-block;
-}
-
-.drawing-link img {
-  max-width: 100%;
-}
 /* portfolio */
 
 .portfolio {
@@ -871,7 +791,7 @@ footer .right-footer-block {
    font-weight: 100;
 }
 .left-nav .items ul li a:hover {
-  color: #1A96E2;
+  color: #40dfda;
 }
  .left-nav .items ul li a i {
    width:16px;
