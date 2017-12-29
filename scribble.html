@@ -7,11 +7,11 @@
 
   <title>Taylor Brown</title>
   <!-- Typekit Fonts -->
-  <link rel="stylesheet" href="https://use.typekit.net/jyh7ttc.css">
+<link rel="stylesheet" href="https://use.typekit.net/jyh7ttc.css">
   <!-- CSS -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/scribble.css">
-  <link rel="stylesheet" href="css/dropit.css">
+  <link rel="stylesheet" href="css/dropit.css"
   <!-- Tracking -->
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -22,21 +22,47 @@
   </script>
 </head>
 
-  <body>
-    <header>
-      <nav class="header" style="right: 0px; left: 0px;">
-        <div class="five-sep">
-            <a href="index.html" class="site-logo">
-              <img src="images/taylorbrown_scribble.png" alt="TAYLOR BROWN"/>
-            </a>
-          </div>
-        </div>
+<!-- RESPONSIVE NAV -->
+   <a class="navbar hamburger" id="menu" href="#">&#9776;</a>
+   <!-- LEFT NAV -->
+   <nav id="left-nav" class="left-nav">
+     <a href="index.html">
+       <img src="images/taylorbrown_scribble.png" href="index.html" class = "left-nav-site-logo"alt="TAYLOR BROWN"/>
+     </a>
+     <div class="items">
+       <ul>
+         <li><a href="about.html"><i class="fa fa-file-o"></i>about</a></li>
+         <li><a href="drawings.html"><i class="fa fa-picture-o"></i>drawings</a></li>
+         <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSceDidoYgFJXSTqKkkT7YOaJ4AKRCUhPvztfypmZidRifTUKw/viewform?usp=sf_link"><i class="fa fa-link"></i>contact</a></li>
+       </ul>
+     </div>
+     <div class="settings">
+     <ul class="settings-menu dropit">
+              <li class="dropit-trigger dropit-open">
+                <a href="#" class="fa fa-cog"></a>
+                <ul class="dropit-submenu menu-up" style="width: 170px; height: 100px; padding-right: 10px; padding-left: 15px;" top:= "-185px;"="">
+                    <li><a href="#"style="padding-bottom: 10px;"><i class="fa fa-cog"></i> Account Settings</a></li>
+                    <li><a href="#"style="padding-bottom: 10px;"><i class="fa fa-users"></i>More Info</a></li>
+                    <li><a href="#"style="padding-bottom: 10px;"><i class="fa fa-sign-out"></i>Contact</a></li>
+                </ul>
+              </li>
+            </ul>
+   </div>
+   </nav>
 
-        <div class="container">
-          <ul class="portfolio-link">
-            <li><a href="portfolio.html">portfolio</a></li>
-            <li><a href="drawings.html">drawings</a></li>
-            <li>
+   <body>
+     <header class="header navbar nav-down">
+         <div class="site-logo">
+             <a href="index.html">
+               <img src="images/taylorbrown_scribble.png" alt="TAYLOR BROWN"/>
+             </a>
+           </div>
+
+         <nav class="site-navigation">
+           <ul>
+             <li><a href="about.html">about</a></li>
+             <li><a href="drawings.html">drawings</a></li>
+             <li>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSceDidoYgFJXSTqKkkT7YOaJ4AKRCUhPvztfypmZidRifTUKw/viewform?usp=sf_link">CONTACT</a>
             </li>
           </ul>
@@ -75,7 +101,7 @@
       </div>
   </div>
     <!-- portfolio 2-->
-    <div class="more-info-scribble">
+    <div class="more-info-color">
         <div class="container">
             <h2>user experiences</h2>
               <p> With user experience surveys, I learned many people saving content online bookmark items in their browser.  With many saved items, this process quickly becomes difficult to manage because there isn't a way to group content or organize the information bookmarked in a person’s browser.
@@ -86,6 +112,10 @@
               <p>Most people use smartphone apps or pen and paper to write notes.  Those who use pen and paper reported liking how quick and easy it to
                   "scribble" down information.  Saving, creating and sharing information, with quick accessiblity became a clear need.
                 </p><br></br>
+          </div>
+      </div>
+      <div class="more-info-color">
+          <div class="container">
             <h2>competitive analysis</h2>
                 <p>After reviewing Scribble's competitors, I determined that rebranding Blocbox to Scribble was necessary as all competitors strive to portray how easy their platform is to use.  Scribble’s name came about to reflect that ease of use.  It’s easy to 'scribble' down a note or an idea and save it for later refinement.  Scribble is meant to enable that same freedom
                   with added organization so that a user's saved items are always readily accessible.
@@ -94,7 +124,7 @@
     </div>
 
 <!-- portfolio 4-->
-<div class="initiative user-personas">
+<div class="more-info-color user-personas">
     <div class="container">
       <h2>user personas</h2>
         <p>Developing user personas revealed most people need help organizing their daily content at work and at home.  People also shared frustration about current practices that didn't allow them to share and view content from all devices easily.
@@ -146,22 +176,26 @@
               <a href="portfolio-links.html" class="portfolio-links">next case study ></a>
         </div>
         </div>
-</section>
+      </section>
+      <div/>
 
-    <footer>
-      <div class="footer-nav-block">
-          <p class="copyright-block">&copy; 2017. <strong>taylor brown</strong> - All Rights Reserved.</p>
+      <footer>
+        <div class="container footer-nav-block">
+          <div class="left-footer-block one-third">
+            <p class="copyright-block">&copy; 2017. <strong>taylor brown</strong> - All Rights Reserved.</p>
+          </div>
         </div>
-      </div>
-    </footer>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110390570-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-110390570-1');
-    </script>
-  </body>
-</html>
+      </footer>
+      <script src="js/jquery-3.2.1.min.js"></script>
+      <script src="js/dropit.js"></script>
+      <script type="text/javascript">
+        $(".menu").dropit();
+          $(".settings-menu").dropit();
+            $( "#menu" ).click(function() {
+              $("#left-nav").toggleClass("open", 200);
+      });
+      </script>
+         <!-- Global site tag (gtag.js) - Google Analytics -->
+         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110390570-1"></script>
+      </body>
+      </html>

@@ -41,9 +41,9 @@ html, body{
     margin-top: 0px;
   }
   p {
-    font-family: "termina", Helvetica, Arial, sans-serif;
+    font-family: "freight-sans-pro", Helvetica, Arial, sans-serif;
     margin: 0 auto;
-    font-size:10px;
+    font-size:14px;
     line-height: 19px;
     font-weight: 100;
     margin-top: 80px;
@@ -60,6 +60,7 @@ html, body{
  }
  a:hover {
    color: #40dfda;
+   text-decoration: none;
  }
  @media (min-width: 620px) {
    h2 {
@@ -70,7 +71,7 @@ html, body{
   }
   @media (min-width: 768px) {
     p {
-      font-size:13px;
+      font-size:20px;
       line-height: 19px;
       font-weight: 100;
     }
@@ -104,7 +105,7 @@ html, body{
 }
 .site-bio {
   background-color: #1b1e1fd6;
-  color:#425464;
+  color:#898c94;
   padding: 30px 0;
 }
 
