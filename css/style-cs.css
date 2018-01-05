@@ -146,8 +146,8 @@ h3.intro {
   }
   @media (max-width: 700px) {
     p {
-      font-size: 13px;
-      line-height: 19px;
+      font-size: 18px;
+      line-height: 1em;
       font-weight: 100;
     }
   }
@@ -199,17 +199,20 @@ li:hover {
     color: #00DBDE;
 }
 .skills-list ul {
+  font-family: "semplicitapro", Helvetica, Arial, sans-serif;
   color: #888d9c;
   line-height: 1.5em;
   list-style-type: none;
   text-align: center;
   padding-left: 0;
+  font-size: 18px;
 }
 div.section.skills-list{
   background-image: linear-gradient(379deg, #1b1e1f 0%, #080808 20%, #1b1e1f 95%);
   padding-top: 60px;
+  margin-top: 0;
   padding-bottom: 60px;
-}
+  }
 @media (min-width: 1001px){
 .skills-list .skills, .skills-list .tools, .strategy {
     padding-bottom: 30px;
@@ -397,7 +400,7 @@ margin-left:15px;
  }
  a:hover.btn.blue {
    color: #f7f7f7;
-   background-image: linear-gradient(160deg, #00dbde 0%, #888d96 95%);
+   background-image: linear-gradient(-75deg, #00dbde 0%, #888d96 95%);
     border: 2px solid #dbdada;
  }
 .hero {
@@ -415,7 +418,6 @@ margin-left:15px;
   color:#888d9c;
   padding: 80px 0;
 }
-
 .site-bio p {
   margin-top: 0;
   margin-left: 0;
@@ -429,6 +431,30 @@ margin-left:15px;
 }
 
 .site-bio p + p {
+  margin-top: 22px;
+}
+.in-touch {
+  background-image: url(../images/myphoto2.png);
+  max-height: 100%;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-color: #080808;
+  color:#888d9c;
+  padding: 80px 0;
+}
+.in-touch p {
+  margin-top: 0;
+  margin-left: 0;
+  line-height: 1.4;
+}
+
+@media screen and (min-width: 600px) {
+  .in-touch p {
+    width: 50%;
+  }
+}
+
+.in-touch p + p {
   margin-top: 22px;
 }
 .site-bio-example {
