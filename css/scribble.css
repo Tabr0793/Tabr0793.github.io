@@ -7,7 +7,7 @@ html, body{
    font-weight: 400;
    color:#898c94;
    margin: 0;
-   background: #010101;
+   background: #1b1a1a;
  }
  main {
     top: 556px;
@@ -28,13 +28,16 @@ html, body{
     line-height: 1.6em;
     width: 60%;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 40px;
     font-style: italic;
   }
   @media (max-width: 620px) {
    h4 {
       font-size:13px;
     }
+  }
+  h4+h4 {
+    padding-top: 20px;
   }
   h1{
     letter-spacing: 5px;
@@ -44,6 +47,7 @@ html, body{
     text-transform: uppercase;
   }
   h2 {
+    width: 100%;
     font-family: "semplicitapro";
     font-size:18px;
     font-weight: normal;
@@ -80,6 +84,7 @@ html, body{
      width: 50%;
    }
  }
+
  @media (min-width: 768px) {
    p {
      font-size:18px;
@@ -199,7 +204,7 @@ top: 0;
 transition: top 0.2s ease-in-out;
 width: 100%;
 margin: 0 auto;
-background-color: #1b1e1f;
+background-color: #1b1a1a;
 z-index: 1;
 display: flex!important;
 justify-content: space-between;
@@ -475,9 +480,17 @@ font-size: large;
   position: relative;
   min-height: 1px;
 }
+@media (max-width: 1200px){
 .probsol-left, .process-left {
   width: 450px;
   float: right;
+  padding-right: 15%;
+  text-align: left;
+}
+}
+.probsol-left, .process-left {
+  width: 450px;
+  float: left;
   padding-right: 15%;
   text-align: left;
 }
@@ -494,7 +507,7 @@ font-size: large;
 }
 @media (max-width: 1100px){
 .gray, .white {
-    width: 100%;
+    width: 100% !important;
     padding: 10% 0;
   }
 }
@@ -516,9 +529,11 @@ p {
 }
 h3 {
   text-transform: uppercase;
-  padding-bottom: 3px;
+  font-family: "semplicitapro", Helvetica, Arial, sans-serif;
+  text-transform: capitalize;
+  padding-bottom: 20px;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 35px;
   letter-spacing: 1px;
   line-height: 0;
   margin-bottom: 38px;
@@ -538,6 +553,16 @@ h3 {
   .initiative p {
     width: 60%;
   }
+}
+.site-bio-summary p{
+  width: 50%;
+  margin: auto;padding-bottom: 50px;
+}
+.site-bio-summary h3{
+  width: 50%;
+  margin: auto;
+  padding-bottom: 50px;
+  padding-top: 40px;
 }
 .site-bio1 {
   background-color: rgba(236, 238, 240, .5);
@@ -633,6 +658,75 @@ h3 {
     width: 50%;
   }
 }
+ /* User Research */
+ .container h4{
+   width: 100%
+ }
+.cs-white {
+    background-color: #252829;
+}
+.cs-summary, .cs-white, .cs-gray {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    float: left;
+}
+#research-tag {
+    margin-left: 16px;
+}
+
+.process-tag {
+
+    line-height: 0;
+    color: white;
+}
+h5 {
+    margin: 36px 0 0 0;
+    font-size: 60px;
+    color: #ffbc50;
+    font-weight: 100;
+}
+@media (max-width: 700px){
+h5 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 1000px){
+.cs-summary, .cs-white, .cs-gray {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+}
+.cs-summary, .cs-white, .cs-gray {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    float: left;
+}
+.research {
+    padding: 0 18px;
+    box-sizing: border-box;
+}
+.one-fourth {
+    width: 70%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+@media screen and (min-width: 1000px) {
+.one-fourth {
+    width: 25%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+ /* Sort Lter */
 .division p{
   background-color: #bcbcbc;
   margin: 0;
@@ -663,7 +757,7 @@ h3 {
   }
 
 .company-info  {
-  background-image: linear-gradient(584.6deg,#130a0b 48%, #f76b1c 2%, #ef990d 45%, #ffbc50 43%, #130a0b 58%);
+  background-image: linear-gradient(579.6deg,#1b1e1f 53%, #f76b1c -28%, #ef990d 42%, #ffbc50 53%, #130a0b 58%);
   color:#fff;
   padding-top: 50px;
   position: relative;
@@ -672,7 +766,7 @@ h3 {
 }
 @media screen and (min-width: 1000px) {
 .company-info  {
-  background-image: linear-gradient(579.6deg,#130a0b 53%, #f76b1c -28%, #ef990d 42%, #ffbc50 53%, #130a0b 58%);
+  background-image: linear-gradient(579.6deg,#1b1e1f 53%, #f76b1c -28%, #ef990d 42%, #ffbc50 53%, #130a0b 58%);
   color:#fff;
   padding-top: 50px;
   position: relative;
@@ -767,7 +861,7 @@ margin-left: 22.4%;
   margin-top: 22px;
 }
 .more-info-scribble {
-  background-image: linear-gradient(180deg, #060606 6%, #b17826 75%, #f3bf6b 114%, #130a0b 19%);
+  background-image: linear-gradient(180deg, #130a0b 6%, #b17826 75%, #f3bf6b 114%, #1b1e1f 19%);
   color: #b5b6ba;
   padding-top: 40px;
 }
@@ -1022,13 +1116,18 @@ h2.title-cap {
     font-size: 35px;
     margin-bottom: 30px;
 }
+#laptop-padding {
+    padding-bottom: 36px;
+}
+.cs-summary img {
+    width: 100%;
+}
 /* FOOTER */
 footer {
   max-width: 1450px;
   margin: 0 auto;
   background-color: #060606;
   box-shadow: 0px 2px 4px 0px #DBDADA;
-  height: 150px;
   position: relative;
   overflow: hidden;
   z-index: 0;
