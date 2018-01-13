@@ -6,7 +6,6 @@ html {
   -ms-text-size-adjust:100%;
   -webkit-text-size-adjust:100%
 }
-
 body {
   margin:0
 }
@@ -320,7 +319,7 @@ a {
 .w3-modal {
   z-index:3;
   display:none;
-  padding-top:100px;
+  padding-top:20px;
   position:fixed;
   left:0;
   top:0;
@@ -331,7 +330,6 @@ a {
 }
 .w3-modal-content {
   margin:auto;
-  background-color:#fff;
   position:relative;
   padding:0;
   outline:0;
@@ -826,7 +824,7 @@ a {
 .w3-deep-purple,.w3-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
 .w3-red,.w3-hover-red:hover {
   color:#fff!important;
-  background-color:#1A96E2!important
+  background-color:#d4d9dc!important
 }
 .w3-sand,.w3-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
 .w3-teal,.w3-hover-teal:hover{color:#fff!important;background-color:#009688!important}
