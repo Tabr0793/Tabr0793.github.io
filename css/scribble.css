@@ -1376,19 +1376,24 @@ footer nav ul li a {
   margin: 10px;
   }
 }
-@media (max-width: 800px){
+@media (min-width: 700px){
 .branding-p {
-  width: 110%;
+  min-width: 110%;
   }
 }
-@media (max-width: 500px){
+@media (min-width: 500px){
 .branding-p {
-  width: 80%;
+  min-width: 100%;
+  }
+}
+@media (min-width: 400px){
+.branding-p {
+  max-width: 80%;
   }
 }
 @media (max-width: 400px){
 .branding-p {
-  width: 70%;
+  width: 65%;
   }
 }
 .one-third {
@@ -1431,6 +1436,7 @@ a:hover .process-tag-link {
 }
 
 .brand-left p{
+    margin-left: 0px;
     float: left;
     padding: 36px 0;
 }
@@ -1552,13 +1558,8 @@ div {
     display: block;
 }
 .less-padding {
-    padding-bottom: 1%;
+    padding-bottom: 80px;
 }
-.three-col {
-    float: left;
-    padding-top: 20px;
-  }
-
 @media (max-width: 900px){
 .three-col p {
     min-width: 80%;

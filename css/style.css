@@ -27,6 +27,7 @@ html, body{
     font-family: "semplicitapro", Helvetica, Arial, sans-serif;
     letter-spacing: 5px;
     line-height: 70px;
+    font-weight: 400;
     font-size: 50px;
     text-transform: uppercase;
     margin-bottom: 0px;
@@ -37,6 +38,7 @@ html, body{
      }
    }
   h2 {
+    text-transform: capitalize;
     color: #40dfda;
     font-weight: normal;
     margin-top: 5px;
@@ -72,7 +74,6 @@ html, body{
  }
  @media (min-width: 620px) {
    h2 {
-      text-transform: capitalize;
       line-height: 1.8em;
       font-size:28px;
       font-weight: 400;
@@ -129,6 +130,7 @@ html, body{
     text-transform: none;
     line-height: 1.6em;
     color: #dfe2e1;
+    font-size: 20px;
     border-bottom: none;
   }
   .box {
@@ -201,7 +203,7 @@ html, body{
   .image-bg {
     padding-left: 15%;
     padding-right: 15%;
-    background-image: url(../images/my-photo41.png);
+    background-image: url(../images/my-photo.png);
     background-repeat: no-repeat;
     background-position: right top;
   }
@@ -217,7 +219,7 @@ html, body{
   padding-top: 0;
 }
 .site-bio.bio-ext {
-  background-color: #3c474adb;
+  background-color: #32393b30;
   color:#898c94;
   margin-top: 0 !important;
 }
@@ -225,15 +227,47 @@ html, body{
   width: 100%
 }
 .site-bio {
+  color:#898c94;
+  padding-top: 0px;
+  padding: 10px 0;
+  margin-top: 20px;
+  }
+@media screen and (min-width: 550px) {
+.site-bio {
+  background-color: #869aa038;
+  color:#898c94;
+  padding-top: 0px;
+  padding: 20px 0;
+  margin-top: 20px;
+  }
+}
+@media screen and (min-width: 850px) {
+.site-bio {
   background-color: #869aa038;
   color:#898c94;
   padding-top: 0px;
   padding: 30px 0;
   margin-top: 20px;
+  margin-bottom: 20px;
+  }
 }
+
+@media screen and (min-width: 850px) {
 .site-bio-intro {
-  background-color: #32393b5c;
+  background-color: #32393b30;
+  }
 }
+.site-bio p {
+  margin-top: 0;
+  margin-left: 0;
+  line-height: 1.4;
+  width: 100%;
+  color: #f2f4f4e6;
+  font-size: 18px;
+  padding-top: 25px;
+  font-weight: 400;
+}
+@media screen and (min-width: 550px) {
 .site-bio p {
   margin-top: 0;
   margin-left: 0;
@@ -243,9 +277,19 @@ html, body{
   font-size: 22px;
   padding-top: 25px;
   font-weight: 400;
+  }
 }
-.site-bio p + p {
-  margin-top: 22px;
+@media screen and (min-width: 850px) {
+.site-bio p {
+  margin-top: 0;
+  margin-left: 0;
+  line-height: 1.4;
+  width: 100%;
+  color: #f2f4f4e6;
+  font-size: 25px;
+  padding-top: 25px;
+  font-weight: 400;
+  }
 }
 .site-logo img {
   margin: 0;
@@ -388,7 +432,7 @@ padding-top: 0px;"
  transition: top 0.2s ease-in-out;
  width: 100%;
  margin: 0 auto;
- background-color: #1b1e1f;
+ background-color: #000000;
  z-index: 1;
  display: flex!important;
  justify-content: space-between;
@@ -1379,17 +1423,21 @@ footer .right-footer-block {
   }
   .fa.fa-github{
     font-size: 20px;
+    color: #888d9c;
   }
   .fa.fa-instagram{
     font-size: 20px;
+    color: #888d9c;
 
   }
   .fa.fa-envelope{
     font-size: 20px;
+    color: #888d9c;
 
   }
   .fa.fa-linkedin{
     font-size: 20px;
+    color: #888d9c;
   }
   @media (min-width: 500px){
     .fa.fa-github{
