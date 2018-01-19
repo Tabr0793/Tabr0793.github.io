@@ -220,7 +220,6 @@ html, body{
   padding-top: 0;
 }
 .site-bio.bio-ext {
-  background-color: #32393b;
   color:#898c94;
   margin-top: 0 !important;
 }
@@ -235,7 +234,6 @@ html, body{
   }
 @media screen and (min-width: 550px) {
 .site-bio {
-  background-color: #869aa038;
   color:#898c94;
   padding-top: 0px;
   padding: 20px 0;
@@ -244,8 +242,10 @@ html, body{
 }
 @media screen and (min-width: 850px) {
 .site-bio {
-  background-color: #869aa038;
-  color:#898c94;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #869aa038;
+  color: #898c94;
   padding-top: 0px;
   padding: 30px 0;
   margin-top: 20px;
