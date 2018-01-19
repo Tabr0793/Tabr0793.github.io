@@ -1286,7 +1286,6 @@ footer nav ul li a {
   position: relative;
 }
 .one-half {
-  min-height: 330px !important;
   float: left;
   position: relative;
   min-height: 1px;
@@ -1403,6 +1402,21 @@ footer nav ul li a {
 .branding-p {
   width: 65%;
   }
+}
+.one-half.gray.prob{
+    min-height: 280px !important;
+}
+.one-half.white.prob{
+    min-height: 280px !important;
+}
+.one-half.gray.comp{
+    min-height: 280px !important;
+}
+.one-half.white.mock{
+    min-height: 480px !important;
+}
+.one-half.gray.mock{
+    min-height: 480px !important;
 }
 .one-third {
     width: 29%;
@@ -1574,6 +1588,11 @@ div {
     margin: 0 !important;
     padding-bottom: 30px;
     text-align: left;
+  }
+}
+@media (max-width: 600px){
+.three-col p {
+    min-width: 100%;
   }
 }
 .three-col p {
