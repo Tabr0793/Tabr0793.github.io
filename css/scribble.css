@@ -94,6 +94,34 @@ html, body{
      font-weight: 100;
    }
  }
+   #popupBoxOnePosition{
+     top: 0;
+     left: 0;
+     position: fixed;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0,0,0,0.7);
+     display: none;
+     text-align: right;
+   }
+   .close-popup {
+     margin: 0;
+   }
+   .popupBoxWrapper{
+     width: 80%; margin: 50px auto; text-align:right;
+   }
+   .popupBoxContent{
+     background-image: url(../images/scribble-flow1.png);
+     padding-bottom: 40%;
+     padding-left: 20%;
+     padding-right: 10px;
+     padding-top: 10px;
+     background-size: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+     border: 2px solid;
+     background-color: #43535d;
+   }
  .scrib-cover {
    background-image: url(../images/scribble_title.png);
    background-repeat: no-repeat;
@@ -511,11 +539,6 @@ font-size: large;
 .gray {
   background-color: #2a3b43;
   padding: 5% 0;
-}
-.one-half {
-  float: left;
-  position: relative;
-  min-height: 1px;
 }
 #footer-nav-logos.one-half.nav-hover{
   float: right;
@@ -1033,22 +1056,10 @@ margin-left: 22.4%;
    float:right;
    position:relative;
    min-height: 1px;
-   }
  }
  @media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
   .one-half {
     width:50%;
-  }
-  .one-third {
-    width:48%;
   }
 }
 @media (min-width: 1200px) {
@@ -1346,10 +1357,15 @@ footer nav ul li a {
     margin: auto;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 991px){
 .color-grid {
     margin: auto;
-    width: 100%;
+  }
+}
+@media (min-width: 991px){
+.color-grid {
+    margin: auto;
+    width: 50%;
   }
 }
 @media (max-width: 700px){
@@ -1359,8 +1375,8 @@ footer nav ul li a {
 }
 @media (max-width: 1000px){
 .color-box {
-    padding: 23px !important;
-    width: 30%;
+    padding: 40px !important;
+    width: 40px;
   }
 }
 .color-box {
@@ -1377,32 +1393,18 @@ footer nav ul li a {
   width: 92%
 }
 
-@media (max-width: 1000px){
+@media (min-width: 350px){
 .branding-p {
-  width: 130%;
-  margin: 10px;
+  min-width: 200%;
+  margin-top: 15px;
   }
 }
-@media (min-width: 700px){
-.branding-p {
-  min-width: 110%;
-  }
-}
-@media (min-width: 500px){
+@media (min-width: 750px){
 .branding-p {
   min-width: 100%;
   }
 }
-@media (min-width: 400px){
-.branding-p {
-  max-width: 80%;
-  }
-}
-@media (max-width: 400px){
-.branding-p {
-  width: 65%;
-  }
-}
+@media (min-width: 1000px){
 .one-half.gray.prob{
     min-height: 280px !important;
 }
@@ -1417,10 +1419,11 @@ footer nav ul li a {
 }
 .one-half.gray.mock{
     min-height: 480px !important;
+  }
 }
 .one-third {
     width: 29%;
-    float: left;
+    float: right;
     position: relative;
     min-height: 1px;
 }
@@ -1491,8 +1494,7 @@ div {
     display: block;
 }
 .float-box-right {
-    background-image: linear-gradient(180deg,#425464 0%, #ef990d 97%, #475661 150%, #2b3b43 100%);
-    padding: 40px;
+    padding: 60px;
     box-shadow: 0 0 60px rgba(0,0,0,.28);
     background-color: #283b44;
 }
@@ -1531,6 +1533,11 @@ div {
   background-image: url(../images/scribble-flow1.png);
   }
 }
+
+#logodesigns {
+  background-image: url(../images/logofreehand.png);
+}
+
 .background-img {
     background-size: cover;
     padding-top: 8%;
@@ -1596,7 +1603,7 @@ div {
   }
 }
 .three-col p {
-  width: 28%;
+  width: 29%;
   margin-right: 40px;
   display: inline-block;
   vertical-align: top;

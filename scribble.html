@@ -10,9 +10,9 @@
 <link rel="stylesheet" href="https://use.typekit.net/jyh7ttc.css">
   <!-- CSS -->
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
   <link rel="stylesheet" href="css/scribble.css">
   <link rel="stylesheet" href="css/dropit.css">
-  <link rel="stylesheet" href="css/font-awesome.css">
   <!-- Tracking -->
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -21,6 +21,19 @@
 
     gtag('config', 'UA-110390570-1');
   </script>
+  <!-- Img pop-up -->
+  <script type="text/javascript">
+    <!--
+        function toggle_visibility(id) {
+           var e = document.getElementById(id);
+           if(e.style.display == 'block')
+              e.style.display = 'none';
+           else
+              e.style.display = 'block';
+        }
+    //-->
+  </script>
+
 </head>
 
 <!-- RESPONSIVE NAV -->
@@ -75,7 +88,7 @@
   <section class="company-info">
       <div class="container">
           <h1>scribble</h1>
-          <p>Made to keep busy warriors organized, even on the go.</p>
+          <p>Made to keep busy people organized; even on the go.</p>
           <img src="images/scribble_header.png" alt="scribble"style = "width: 100%;"/>
       </div>
   </section>
@@ -153,22 +166,34 @@
   </section>
   <!-- wirefraiming-->
   <section class="cs-white background-img" id="user-flows" style="padding-bottom: 50px; padding-top: 50px;">
-
       <div class="container">
         <div class="analysis-left float-box-right">
-          <h4><a href="https://www.dropbox.com/s/2rt3mhu6zz6dkbv/flow.png?dl=0" target="_blank" title="View flows"><span class="process-tag process-tag-link">see user stories and flows</span></a></h4>
+          <div id="popupBoxOnePosition">
+            <div class="popupBoxWrapper">
+              <div class="popupBoxContent">
+                <a href="javascript:void(0)" onclick="toggle_visibility('popupBoxOnePosition');">X Close</a>
+              </div>
+            </div>
+          </div>
+
+          <div id="wrapper">
+
+            <h4><a href="javascript:void(0)" onclick="toggle_visibility('popupBoxOnePosition');"><span class="process-tag process-tag-link">View User Flows</a></h4>
+          </div><!-- wrapper end -->
           <p>Paths for creating content, onboarding and signing in were detailed for new and returning users. This information architecture served as a template for the creation of the site.</p>
         </div>
       </div>
     </section>
+
+
   <!-- colors-->
   <section class="cs-gray" id="">
-    <div class="container brand-container">
+    <div class="container" style="margin-bottom: 15px;margin-top: 15px;">
           <h4><span class="process-tag">Branding</span></h4>
-      <div class="brand-left standalone-left">
-            <p class = "branding-p">Before jumping into the design and layout of the app, we established the overall look and feel of the brand. That included choosing fonts for headlines and body type – Roboto and Roboto Slab. Roboto was chosen for its versatility as it has a mechanical skeleton but features friendly and open curves. Roboto Slab was used for an added playful feel. We chose cool gray tones and blue based off of color psychology.  Blue exudes prestige and trust while the added orange provides playfulness and excitement..</p>
+      <div class="standalone-left">
+            <p class = "branding-p">Before jumping into the design and layout of the app, we established the overall look and feel of the brand. That included choosing fonts for headlines and body type – Roboto and Roboto Slab. Roboto was chosen for its versatility as it has a mechanical skeleton but features friendly and open curves. Roboto Slab was used for an added playful feel. We chose cool gray tones and blue based off of color psychology.  Blue exudes prestige and trust while the added orange provides playfulness and excitement.</p>
       </div>
-      <div class="one-half color-grid">
+      <div class="one-half">
           <p class="one-third color-box" style="background-color: #5e676b">#5e676b</p>
           <p class="one-third color-box" style="background-color: #95a3a2">#95a3a2</p>
           <p class="one-third color-box" style="background-color: #d1d3d4">#d1d3d4</p>
@@ -178,13 +203,22 @@
       </div>
     </div>
   </section>
+  <!-- Logo Exploration -->
+  <section class="cs-white background-img" id="logodesigns" style="margin-top: 0;padding-bottom: 15%;">
+    <div class="container">
+          <div style="padding: 0;"class="one-fourth research">
+            <h5 style="color: white;width: 300px;">Logo 84%</h5>
+            <p style="color: white;width: 300px; font-weight: 400;font-size: 24px;">prefered in user testing</p>
+          </div>
+    </div>
+  </section>
   <!-- wireframes-mockups-->
 
   <section class="cs-probsol">
     <div class="one-half gray mock">
       <div class="probsol-left">
         <h3><span class="underline">Wireframes</span></h3>
-        <p>Low-fidelity wireframes were created, tested and experienced many different iterations before graduating to the the high-fidelity stage. The first round of testing took place on Peek, where random users were asked to complete a specific set of tasks. A usability test script was then developed and three users completed video usability tests on a clickable prototype. Overall, the three users had a positive response to Scribble and were able to navigate the site smoothly.</p>
+        <p>Low-fidelity wireframes were created, tested and experienced many different iterations before graduating to the the high-fidelity stage. The first round of testing took place on Peek, where random users were asked to complete a specific set of tasks. A usability test script was then developed and three users completed video usability tests on a clickable prototype. These responses were then thoroughly examined and some tweaks were made so users could navigate the site more smoothly.</p>
       </div>
     </div>
     <div class="one-half white mock">
@@ -202,7 +236,7 @@
             <div class="three-col">
               <p class="three-graph">After thorough testing and many design iterations, Scribble finally embodies a user friendly structure, which gives users a quick and easy note-taking experience.</p>
               <p class="three-graph">User testing feedback was a crucial part that helped inform the user experience and design of Scribble such as the change in navigational structure and the color of the add button.</p>
-              <p class="three-graph">More importantly, we were validated by positive user responses. Users used words like “trustworthy,” “modern,” “clean” and “easy” during the testing process, which confirmed Scribble provides a positive user experience.</p>
+              <p class="three-graph"style="margin-right: 0!important"; >More importantly, we were validated by positive user responses. Users used words like “trustworthy,” “modern,” “clean” and “easy” during the testing process, which confirmed Scribble provides a positive user experience.</p>
             </div>
           </div>
         </div>
