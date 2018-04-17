@@ -1549,7 +1549,7 @@ div {
 }
 
 .cs-white{
-    background-image: linear-gradient(180deg,#425464 0%, #ef990d 97%, #475661 41%, #2b3b43 110%);
+    background-image: linear-gradient(180deg,#162125 0%, #162125 100%);
     background-color: #2b3b43;
     width: 100%;
     height: auto;
