@@ -5,9 +5,9 @@ html, body{
    font-family: "termina", sans-serif;
    font-style: normal;
    font-weight: 400;
-   color:#e2e2e2;
+   color:#374b54;
    margin: 0;
-   background: #43535d;
+   background: #dcdcdc;
  }
  main {
     top: 556px;
@@ -120,7 +120,7 @@ html, body{
      background-position: center;
      background-repeat: no-repeat;
      border: 2px solid;
-     background-color: #43535d;
+     background-color: #1294ca;
    }
  .scrib-cover {
    background-image: url(../images/scribble_title.png);
@@ -525,7 +525,7 @@ font-size: large;
  }
 }
 .underline {
-    border-bottom: 3px solid #f5af3c;
+    border-bottom: 3px solid #ffc200;
 }
 .cs-probsol {
   width: 100%;
@@ -537,7 +537,7 @@ font-size: large;
   float: left;
 }
 .gray {
-  background-color: #2a3b43;
+  background-color: #f3f3f3;
   padding: 5% 0;
 }
 #footer-nav-logos.one-half.nav-hover{
@@ -570,7 +570,7 @@ font-size: large;
   }
 }
 .white {
-  background-color: #414c50;
+  background-color: #e6e6e6;
   padding: 5% 0;
 }
 @media (min-width: 600px){
@@ -870,8 +870,8 @@ h5 {
   }
 
 .company-info  {
-  background-image: linear-gradient(180deg,#425464 0%, #ef990d 93%, #505a5e 6%, #2b3b43 131%);
-  color:#fff;
+  background-image: linear-gradient(180deg,#d2d2d2 0%, #ffffff 93%, #f5f5f5 6%, #ffffff 131%);
+  color:#162127;
   padding-top: 50px;
   position: relative;
   margin: auto;
@@ -963,7 +963,7 @@ margin-left: 22.4%;
   margin-top: 22px;
 }
 .more-info-scribble {
-  background-image: linear-gradient(180deg, #162125 30%, #e49419 9%, #162125 101%);
+  background-image: linear-gradient(180deg, #162127 30%, #f3f3f3 9%, #162128 101%);
   color: #b5b6ba;
   padding-top: 25px;
 }
@@ -1276,7 +1276,7 @@ footer nav ul li a {
     z-index: 0;
 }
 .cs-nav {
-    background-color: #162126;
+    background-color: #eaeaea;
     display: block;
     z-index: 1000;
     width: 100%;
@@ -1440,8 +1440,8 @@ a:hover .process-tag-link {
 .process-tag {
   padding: 7px;
   line-height: 0;
-  color: #ef990d;
-  border: 2px solid #d38f23;
+  color: #f6a704;
+  border: 2px solid #f6a704;
   text-transform: uppercase;
 }
 .brand-left {
@@ -1496,7 +1496,7 @@ div {
 .float-box-right {
     padding: 60px;
     box-shadow: 0 0 60px rgba(0,0,0,.28);
-    background-color: #283b44;
+    background-color: #ffffff;
 }
 @media (max-width: 1000px){
 .float-box-right {
@@ -1545,12 +1545,11 @@ div {
 }
 
 .cs-white p{
-    color: #ffffff;
+    color: #374b53;
 }
 
 .cs-white{
-    background-image: linear-gradient(180deg,#162125 0%, #162125 100%);
-    background-color: #2b3b43;
+    background-color: #ffffff;
     width: 100%;
     height: auto;
     margin-top: 15px;
@@ -1566,11 +1565,11 @@ div {
   }
 }
 .cs-gray {
-  background-color: #162126;
+  background-color: #f3f3f3;
   margin-top: 15px;
 }
 .cs-summary {
-  background-color: #162125;
+  background-color: #ffffff;
 }
 .process-mugs {
     height: 61px;

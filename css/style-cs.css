@@ -294,7 +294,7 @@ div.section.skills-list{
 .box .ecenter {
   position:absolute;
   font-size: 22px;
-  padding-bottom: 30px;
+  padding-bottom: 75px;
   text-align: left;
   bottom:90px;
   left:3.5%;
@@ -308,7 +308,7 @@ div.section.skills-list{
 .box .dcenter {
   text-align: left;
   position:absolute;
-  bottom:140px;
+  bottom:190px;
   left:3.5%;
   right:20px;
 }
@@ -323,7 +323,7 @@ div.section.skills-list{
 .box .ncenter {
   position:absolute;
   text-align: left;
-  bottom:90px;
+  bottom:135px;
   left:3.5%;
   right:20px;
 }
@@ -331,10 +331,9 @@ div.section.skills-list{
 position: relative;
 }
 .box .btn {
-position:absolute;
 bottom:40px;
 left:3.5%;
-margin-left:15px;
+margin-left:5%;
 }
 @media (min-width: 800px) {
 .boximages2{
@@ -359,7 +358,6 @@ display: none;
 /* BUTTONS */
 .btn {
   border-radius: 4px;
-  width: 130px;
   text-align: -webkit-center;
   font-weight: 200;
   text-decoration: none;
@@ -390,6 +388,18 @@ display: none;
    background-color: #00dbde;
   border: 2px solid #dbdada;
  }
+ #bottom-btn1{
+   top: -10px;
+   margin-left: 5%;
+   margin-bottom: 10px;
+   display: block;
+}
+#bottom-btn2{
+  top: -10px;
+  margin-left: 5%;
+  display: block;
+` float: left;
+}
 .hero {
   background-attachment: fixed;
   max-height: 100%;
