@@ -292,13 +292,10 @@ div.section.skills-list{
   padding: 5px 15px;
   }
 .box .ecenter {
-  position:absolute;
+  position: absolute;
   font-size: 22px;
-  padding-bottom: 75px;
-  text-align: left;
-  bottom:90px;
-  left:3.5%;
-  right:20px;
+  bottom: 110px;
+  left: 3.5%;
 }
 .dcenter {
   text-align: -webkit-center;
@@ -308,7 +305,7 @@ div.section.skills-list{
 .box .dcenter {
   text-align: left;
   position:absolute;
-  bottom:190px;
+  bottom:140px;
   left:3.5%;
   right:20px;
 }
@@ -321,23 +318,20 @@ div.section.skills-list{
   }
 
 .box .ncenter {
-  position:absolute;
-  text-align: left;
-  bottom:135px;
-  left:3.5%;
-  right:20px;
+  position: absolute;
+  bottom: 85px;
+  left: 3.5%;
 }
 .box {
 position: relative;
 }
 .box .btn {
-bottom:40px;
-left:3.5%;
-margin-left:5%;
 }
+
 @media (min-width: 800px) {
 .boximages2{
 display: none;
+
   }
 }
 @media (min-width: 600px) {
@@ -389,16 +383,39 @@ display: none;
   border: 2px solid #dbdada;
  }
  #bottom-btn1{
-   top: -10px;
-   margin-left: 5%;
-   margin-bottom: 10px;
-   display: block;
+   margin-left:5%;
+   position: absolute;
+   top: 85%;
+   left: 95px;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   background-color: #555;
+   color: white;
+   font-size: 16px;
+   padding: 12px 24px;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
 }
+  #bottom-btn2{
+    display:none;
+  }
+@media screen and (min-width: 615px) {
 #bottom-btn2{
-  top: -10px;
-  margin-left: 5%;
   display: block;
-` float: left;
+  position: absolute;
+  top: 85%;
+  left: 370px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  }
 }
 .hero {
   background-attachment: fixed;
