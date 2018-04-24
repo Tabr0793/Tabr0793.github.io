@@ -63,7 +63,7 @@ html, body{
     margin-top: 80px;
    }
   A {
-  color: white;
+  color: #162128;
   text-decoration: none;
   font-size: 13px;
   text-transform: uppercase;
@@ -268,7 +268,7 @@ top: 0;
 transition: top 0.2s ease-in-out;
 width: 100%;
 margin: 0 auto;
-background-color: #162126;
+background-color: #eaeaea;
 z-index: 1;
 display: flex!important;
 justify-content: space-between;
@@ -963,7 +963,7 @@ margin-left: 22.4%;
   margin-top: 22px;
 }
 .more-info-scribble {
-  background-image: linear-gradient(180deg, #162127 30%, #f3f3f3 9%, #162128 101%);
+  background-image: linear-gradient(180deg, #162127 30%, #162128 100%);
   color: #b5b6ba;
   padding-top: 25px;
 }
@@ -1536,6 +1536,9 @@ div {
 
 #logodesigns {
   background-image: url(../images/logofreehand.png);
+}
+#wireframes {
+  background-image: url(../images/wireframes.png);
 }
 
 .background-img {

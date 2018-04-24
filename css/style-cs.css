@@ -357,7 +357,7 @@ display: none;
 }
 /* BUTTONS */
 .btn {
-  border-radius: 4px;
+  border-radius: 20px;
   text-align: -webkit-center;
   font-weight: 200;
   text-decoration: none;
