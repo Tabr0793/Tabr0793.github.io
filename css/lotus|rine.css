@@ -5,9 +5,9 @@ html, body{
    font-family: "termina", sans-serif;
    font-style: normal;
    font-weight: 400;
-   color:#2D2E2F;
+   color:#374b54;
    margin: 0;
-   background: #162127;
+   background: #f9f9f9;
  }
  main {
     top: 556px;
@@ -63,17 +63,17 @@ html, body{
     margin-top: 80px;
    }
   A {
-  color: white;
+  color: #162128;
   text-decoration: none;
   font-size: 13px;
   text-transform: uppercase;
  }
  a:hover {
-  color: #F5AF3C;
+  color: #ff8483;
  }
 
  a:active {
-    color: #f4a524;
+    color: #e87c7c;
     text-decoration: none;
  }
 
@@ -94,6 +94,34 @@ html, body{
      font-weight: 100;
    }
  }
+   #popupBoxOnePosition{
+     top: 0;
+     left: 0;
+     position: fixed;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0,0,0,0.7);
+     display: none;
+     text-align: right;
+   }
+   .close-popup {
+     margin: 0;
+   }
+   .popupBoxWrapper{
+     width: 80%; margin: 50px auto; text-align:right;
+   }
+   .popupBoxContent{
+     background-image: url(../images/scribble-flow1.png);
+     padding-bottom: 40%;
+     padding-left: 20%;
+     padding-right: 10px;
+     padding-top: 10px;
+     background-size: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+     border: 2px solid;
+     background-color: #1294ca;
+   }
  .scrib-cover {
    background-image: url(../images/scribble_title.png);
    background-repeat: no-repeat;
@@ -240,7 +268,7 @@ top: 0;
 transition: top 0.2s ease-in-out;
 width: 100%;
 margin: 0 auto;
-background-color: #162126;
+background-color: #eaeaea;
 z-index: 1;
 display: flex!important;
 justify-content: space-between;
@@ -497,7 +525,7 @@ font-size: large;
  }
 }
 .underline {
-    border-bottom: 3px solid #FF8484;
+    border-bottom: 3px solid #ff8483;
 }
 .cs-probsol {
   width: 100%;
@@ -509,13 +537,8 @@ font-size: large;
   float: left;
 }
 .gray {
-  background-color: #f7f7f7;
+  background-color: #f9f9f9;
   padding: 5% 0;
-}
-.one-half {
-  float: left;
-  position: relative;
-  min-height: 1px;
 }
 #footer-nav-logos.one-half.nav-hover{
   float: right;
@@ -547,21 +570,19 @@ font-size: large;
   }
 }
 .white {
-  background-color: #2b343a;
+  background-color: #f3f3f3;
   padding: 5% 0;
 }
 @media (min-width: 600px){
 .probsol-right, .process-right {
   width: 60%;
   margin: auto;
-  color: #ffffff;
   }
 }
 @media (max-width: 600px){
 .probsol-right, .process-right {
   width: 90%;
   margin: auto;
-  color: #ffffff;
   }
 }
 @media (min-width: 1100px){
@@ -571,7 +592,6 @@ font-size: large;
   float: left;
   padding-left: 15%;
   text-align: left;
-  color: #ffffff;
   }
 }
 @media (max-width: 1100px){
@@ -602,12 +622,6 @@ h3 {
   letter-spacing: 1px;
   line-height: 0;
   margin-bottom: 38px;
-}
-div .center-text {
-  color: #ffffff;
-}
-p.branding-p {
-  color: #162127;
 }
 .more-info a {
   font-size: 11px;
@@ -733,10 +747,7 @@ p.branding-p {
  .container h4{
    width: 100%
  }
- .user-personas {
-   background-color: #2b343a;
- }
-.user-personas, .cs-summary, .cs-white, .cs-gray {
+.cs-summary, .cs-white, .cs-gray {
     width: 100%;
     height: auto;
     display: block;
@@ -756,7 +767,7 @@ p.branding-p {
 h5 {
     margin: 36px 0 20px 0;
     font-size: 60px;
-    color: #162127;
+    color: #ff8483;
     font-weight: 100;
 }
 @media (max-width: 700px){
@@ -779,7 +790,6 @@ h5 {
     position: relative;
     min-height: 1px;
 }
-
 @media screen and (max-width: 500px) {
 .center-text p {
   width: 100% !important;
@@ -859,8 +869,8 @@ h5 {
   }
 
 .company-info  {
-  background-image: linear-gradient(180deg,#120606 86%,#162127 0%, #ffffff 93%, #162127 6%, #000000 131%);
-  color:#2d2e2f;
+  background-image: linear-gradient(180deg,#d2d2d2 0%, #ffffff 93%, #f5f5f5 6%, #ffffff 131%);
+  color:#162127;
   padding-top: 50px;
   position: relative;
   margin: auto;
@@ -878,7 +888,6 @@ text-align: center;
 margin: auto;
 padding-top: 20px;
 font-size: 25px;
-color: white;
 }
 
 @media screen and (min-width: 600px) {
@@ -886,7 +895,7 @@ color: white;
 padding-top: 20px;
 width: 80%;
 margin: auto;
-
+}
   }
 @media screen and (min-width: 800px) {
   .company-info h1 {
@@ -953,7 +962,7 @@ margin-left: 22.4%;
   margin-top: 22px;
 }
 .more-info-scribble {
-  background-image: linear-gradient(180deg, #c7cacb -16%, #151f26 101%);
+  background-image: linear-gradient(180deg, #e4e4e4 30%, #adadad 100%);
   color: #b5b6ba;
   padding-top: 25px;
 }
@@ -1046,22 +1055,10 @@ margin-left: 22.4%;
    float:right;
    position:relative;
    min-height: 1px;
-   }
  }
  @media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
   .one-half {
     width:50%;
-  }
-  .one-third {
-    width:48%;
   }
 }
 @media (min-width: 1200px) {
@@ -1217,7 +1214,7 @@ h2.title-cap {
     padding-top: 70px;
 }
 .cs-summary img {
-    padding-bottom: 50px;
+    width: 32%;
 }
 /* FOOTER */
 footer {
@@ -1278,7 +1275,7 @@ footer nav ul li a {
     z-index: 0;
 }
 .cs-nav {
-    background-color: #162126;
+    background-color: #eaeaea;
     display: block;
     z-index: 1000;
     width: 100%;
@@ -1355,31 +1352,22 @@ footer nav ul li a {
 }
 .color-grid {
     float: right;
-    padding-top: 36px;
+    padding-top: 10px;
     margin: auto;
 }
 
-@media (max-width: 1000px){
+
+@media (max-width: 767px){
 .color-grid {
     margin: auto;
-    width: 100%;
+    float: left;
   }
 }
-@media (max-width: 700px){
-.color-box {
-    width: 42.6% !important;
-  }
-}
-@media (max-width: 1000px){
-.color-box {
-    padding: 23px !important;
-    width: 30%;
-  }
-}
+
 .color-box {
     margin: 10px;
     box-sizing: border-box;
-    padding: 48px 0;
+    padding: 58px 0;
     font-weight: 400;
     color: white;
     text-align: center;
@@ -1390,32 +1378,18 @@ footer nav ul li a {
   width: 92%
 }
 
-@media (max-width: 1000px){
+@media (min-width: 350px){
 .branding-p {
-  width: 130%;
-  margin: 10px;
+  min-width: 200%;
+  margin-top: 15px;
   }
 }
-@media (min-width: 700px){
-.branding-p {
-  min-width: 110%;
-  }
-}
-@media (min-width: 500px){
+@media (min-width: 750px){
 .branding-p {
   min-width: 100%;
   }
 }
-@media (min-width: 400px){
-.branding-p {
-  max-width: 80%;
-  }
-}
-@media (max-width: 400px){
-.branding-p {
-  width: 65%;
-  }
-}
+@media (min-width: 1000px){
 .one-half.gray.prob{
     min-height: 280px !important;
 }
@@ -1427,13 +1401,11 @@ footer nav ul li a {
 }
 .one-half.white.mock{
     min-height: 480px !important;
-}
-.one-half.gray.mock{
-    min-height: 480px !important;
+  }
 }
 .one-third {
-    width: 20%;
-    float: left;
+    width: 9%;
+    float: right;
     position: relative;
     min-height: 1px;
 }
@@ -1444,14 +1416,14 @@ footer nav ul li a {
 }
 a:hover .process-tag-link {
   color: white;
-  background-color: #f4a524;
+  background-color: #ff8482;
   padding: 10px;
 }
 .process-tag {
   padding: 7px;
   line-height: 0;
-  color: #162128;
-  border: 2px solid #162128;
+  color: #101e2c;
+  border: 2px solid #ded6d6;
   text-transform: uppercase;
 }
 .brand-left {
@@ -1504,10 +1476,9 @@ div {
     display: block;
 }
 .float-box-right {
-    background-image: linear-gradient(180deg,#e0e0e0 0%, #162127 103%,  #2b3b43 110%);
-    padding: 40px;
+    padding: 60px;
     box-shadow: 0 0 60px rgba(0,0,0,.28);
-    background-color: #283b44;
+    background-color: #ffffff;
 }
 @media (max-width: 1000px){
 .float-box-right {
@@ -1544,6 +1515,14 @@ div {
   background-image: url(../images/scribble-flow1.png);
   }
 }
+
+#logodesigns {
+  background-image: url(../images/logofreehand.png);
+}
+#wireframes {
+  background-image: url(../images/wireframes.png);
+}
+
 .background-img {
     background-size: cover;
     padding-top: 8%;
@@ -1551,12 +1530,11 @@ div {
 }
 
 .cs-white p{
-    color: #ffffff;
+    color: #374b53;
 }
 
 .cs-white{
-    background-image: linear-gradient(180deg,#e0e0e0 0%, #162127 97%, #2b3b43 110%);
-    background-color: #162127;
+    background-color: #ffffff;
     width: 100%;
     height: auto;
     margin-top: 15px;
@@ -1572,11 +1550,11 @@ div {
   }
 }
 .cs-gray {
-  background-color: #ffffff;
+  background-color: #f9f9f9;
   margin-top: 15px;
 }
 .cs-summary {
-  background-color: #162125;
+  background-color: #ffffff;
 }
 .process-mugs {
     height: 61px;
@@ -1609,7 +1587,7 @@ div {
   }
 }
 .three-col p {
-  width: 28%;
+  width: 29%;
   margin-right: 40px;
   display: inline-block;
   vertical-align: top;

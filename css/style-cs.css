@@ -296,6 +296,7 @@ div.section.skills-list{
   font-size: 22px;
   bottom: 110px;
   left: 3.5%;
+  text-shadow: .5px .5px #504848;
 }
 .dcenter {
   text-align: -webkit-center;
@@ -303,6 +304,7 @@ div.section.skills-list{
   padding: 5px 15px;
 }
 .box .dcenter {
+  text-shadow: .5px .5px #504848;
   text-align: left;
   position:absolute;
   bottom:140px;
@@ -321,11 +323,10 @@ div.section.skills-list{
   position: absolute;
   bottom: 85px;
   left: 3.5%;
+  text-shadow: .5px .5px #504848;
 }
 .box {
 position: relative;
-}
-.box .btn {
 }
 
 @media (min-width: 800px) {
@@ -351,7 +352,7 @@ display: none;
 }
 /* BUTTONS */
 .btn {
-  border-radius: 20px;
+  border-radius: 5px;
   text-align: -webkit-center;
   font-weight: 200;
   text-decoration: none;
@@ -373,15 +374,39 @@ display: none;
    }
  }
  a:active.btn.blue{
-   color: #f7f7f7;
+    color: #f7f7f7;
     background-color: #40e0da;
-    border: 2px solid #dbdada;
+    border: 2px solid #f7f7f7;
+ }
+ a:hover#bottom-btn2 {
+   color: #fff;
+   background-color: #717171;
+ }
+ a:hover#bottom-btn1 {
+   color: #fff;
+   background-color: #717171;
  }
  a:hover.btn.blue {
-   color: #f7f7f7;
-   background-color: #00dbde;
-  border: 2px solid #dbdada;
- }
+    color: #f7f7f7;
+    background-color: #00dbde;
+    border: 2px solid #dbdada;
+  }
+  #bottom-btn1{
+    margin-left:3%;
+    position: absolute;
+    top: 85%;
+    left: 95px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  @media screen and (min-width: 615px) {
  #bottom-btn1{
    margin-left:5%;
    position: absolute;
@@ -396,7 +421,26 @@ display: none;
    border: none;
    cursor: pointer;
    border-radius: 5px;
+ }
 }
+@media screen and (min-width: 1300px) {
+#bottom-btn2{
+ margin-left:1%;
+ position: absolute;
+ top: 85%;
+ left: 95px;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ background-color: #555;
+ color: white;
+ font-size: 16px;
+ padding: 12px 24px;
+ border: none;
+ cursor: pointer;
+ border-radius: 5px;
+}
+}
+
   #bottom-btn2{
     display:none;
   }
