@@ -587,11 +587,9 @@ font-size: large;
 }
 @media (min-width: 1100px){
 .probsol-right, .process-right {
-  width: 450px;
-  margin-right: 15%;
   float: left;
   padding-left: 15%;
-  text-align: left;
+
   }
 }
 @media (max-width: 1100px){
@@ -1512,7 +1510,7 @@ div {
 }
 @media (min-width: 700px){
 #user-flows {
-  background-image: url(../images/scribble-flow1.png);
+  background-image: url(../images/user-flow-lotus.png);
   }
 }
 
@@ -1591,5 +1589,35 @@ div {
   margin-right: 40px;
   display: inline-block;
   vertical-align: top;
+  }
+}
+.video-center{
+  width: 60%;
+margin: auto;
+}
+
+.video {
+  width: 100%;
+  margin-top: 0px;
+  height: auto;
+  display: block;
+  position: relative;
+}
+
+@media (max-width: 1100px){
+.video-center{
+  margin: auto;
+  }
+}
+
+@media (min-width: 600px){
+.video-center {
+  margin: auto;
+  }
+}
+@media (max-width: 600px){
+.video-center {
+    width: 100%;
+    margin: auto;
   }
 }
