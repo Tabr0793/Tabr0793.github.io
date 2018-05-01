@@ -353,7 +353,7 @@ display: none;
 }
 /* BUTTONS */
 .btn {
-  border-radius: 5px;
+  border-radius: 20px;
   text-align: -webkit-center;
   font-weight: 200;
   text-decoration: none;
@@ -361,7 +361,7 @@ display: none;
   margin:auto;
   margin-right: 20px;
   padding: 5px 15px;
-  border: 2px solid #888d9c;
+  border: 1px solid #888d9c;
   box-shadow: 0px 0.5px 0px 0px #404352;
  }
  .btn.blue {
@@ -389,8 +389,8 @@ display: none;
  }
  a:hover.btn.blue {
     color: #f7f7f7;
-    background-color: #00dbde;
-    border: 2px solid #dbdada;
+    background-color: #2c3642;
+    border: 1px solid #dbdada;
   }
   #bottom-btn1{
     margin-left:3%;
@@ -399,12 +399,12 @@ display: none;
     left: 95px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: #414141;
     color: white;
     font-size: 16px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 20px;
   }
 
   @media screen and (min-width: 615px) {
@@ -415,13 +415,13 @@ display: none;
    left: 95px;
    transform: translate(-50%, -50%);
    -ms-transform: translate(-50%, -50%);
-   background-color: #555;
+   background-color: #414141;
    color: white;
    font-size: 16px;
    padding: 12px 24px;
    border: none;
    cursor: pointer;
-   border-radius: 5px;
+   border-radius: 20px;
  }
 }
 @media screen and (min-width: 1300px) {
@@ -432,13 +432,13 @@ display: none;
  left: 95px;
  transform: translate(-50%, -50%);
  -ms-transform: translate(-50%, -50%);
- background-color: #555;
+ background-color: #414141;
  color: white;
  font-size: 16px;
  padding: 12px 24px;
  border: none;
  cursor: pointer;
- border-radius: 5px;
+ border-radius: 20px;
 }
 }
 
@@ -453,13 +453,13 @@ display: none;
   left: 370px;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #555;
+  background-color: #414141;
   color: white;
   font-size: 16px;
   padding: 12px 24px;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 20px;
   }
 }
 .hero {
