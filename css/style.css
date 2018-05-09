@@ -33,9 +33,9 @@ html, body{
     text-transform: uppercase;
     margin-bottom: 0px;
   }
-  @media (min-width: 620px) {
+  @media screen (min-width: 768px;){
     h1 {
-       font-size:60px;
+       font-size:90px;
      }
    }
   h2 {
@@ -52,7 +52,7 @@ html, body{
     margin-top: 0px;
   }
   p {
-    font-family: "Dosis", Helvetica, Arial, sans-serif;
+    font-family: "freight-sans-pro", Helvetica, Arial, sans-serif;
     margin: 0 auto;
     font-size:14px;
     line-height: 19px;
@@ -849,12 +849,29 @@ p.animated.fadeIn {
 .title a{
   margin-left: 20px;
 }
+
 .title h1{
   padding-top: 80px;
+  font-family: 'semplicitapro', serif;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 1.125;
+  color: #f6f6f6;
+}
+@media screen (min-width: 768px){
+  .title h1{
+  font-size: 90px;
+  }
 }
 .title {
   padding-top: 50px;
   text-align: center;
+}
+@media screen (min-width: 768px){
+.title {
+  padding-top: 90px;
+  text-align: center;
+  }
 }
 /* FOOTER */
 footer {
