@@ -208,6 +208,7 @@ a {
 	padding-top: 15px;
 	padding-bottom: 15px;
   padding: 30px;
+  background-color: #050606;
 }
 
 .hero-zest img {
@@ -591,7 +592,7 @@ a {
 	}
 
 	.steps {
-		background-image: url('../images/boat.png');
+		background-image: url('../images/boatc.png');
     	position: absolute;
     	background-repeat: no-repeat;
 		background-size: cover;
@@ -606,7 +607,7 @@ a {
         transform: skew(-15deg);
 	}
   .steps2 {
-		background-image: url('../images/sf-stretch.png');
+		background-image: url('../images/sf-stretchc.png');
     	position: absolute;
     	background-repeat: no-repeat;
 		background-size: cover;
