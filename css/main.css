@@ -592,7 +592,7 @@ a {
 	}
 
 	.steps {
-		background-image: url('../images/boatc.png');
+		background-image: url('../images/boat.png');
     	position: absolute;
     	background-repeat: no-repeat;
 		background-size: cover;
@@ -607,7 +607,7 @@ a {
         transform: skew(-15deg);
 	}
   .steps2 {
-		background-image: url('../images/sf-stretchc.png');
+		background-image: url('../images/sf-stretch.png');
     	position: absolute;
     	background-repeat: no-repeat;
 		background-size: cover;
