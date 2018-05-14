@@ -412,7 +412,7 @@ a {
     background-repeat: no-repeat;
     background-size:cover;
     background-position: right;
-    background-image: url('../images/my-photo7.png');
+    background-image: url('../images/my-about-photo.png');
     background-color: #2c2d2d;
 	}
   @media(min-width: 980px) {
