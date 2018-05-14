@@ -81,7 +81,13 @@ a:hover {
     display: flex!important;
     justify-content: space-between;
 }
-
+.worklife-copy li{
+  font-family: "freight-sans-pro", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.5;
+	color: #dcdcdc;
+}
 @media (min-width: 750px) {
 .header nav ul {
     transform: translate(0, 30%);
@@ -203,6 +209,10 @@ a {
 	font-size: 16px;
 	margin-top: 80px;
 }
+.hero-copy p+p {
+	margin-top: 0px;
+}
+
 
 .hero-zest {
 	padding-top: 15px;
@@ -441,6 +451,7 @@ a {
 	.hero-copy p {
 		font-size: 20px;
 		margin-top: 100px;
+    margin-bottom: 0px;
 	}
 
 	.hero-zest {
