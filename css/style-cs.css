@@ -393,7 +393,7 @@ display: none;
   box-shadow: 0px 0.5px 0px 0px #404352;
  }
  .btn.blue {
-   background-color: #000000;
+   background-color: #313131;
  }
 
  @media (min-width: 600px) {
@@ -421,7 +421,7 @@ display: none;
  }
  a:hover.btn.blue {
     color: #f7f7f7;
-    background-color: #171921;
+    background-color: #484848;
     border: 1px solid #dbdada;
   }
   #bottom-btn1{
@@ -522,7 +522,7 @@ background: #484848;
   margin-top: 22px;
 }
 .in-touch {
-  background-image: url(../images/myphoto2.png);
+  background-image: url(../images/myphoto2tre.png);
   max-height: 100%;
   background-repeat: no-repeat;
   background-position: right top;
