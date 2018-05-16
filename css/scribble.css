@@ -1638,6 +1638,7 @@ a:hover#bottom-btn1 {
   text-decoration: none;
   font-family: "semplicitapro", Helvetica, Arial, sans-serif;
   margin:auto;
+  padding: 5px 10px;
   margin-right: 20px;
   color: #efad35;
   border: 1px solid #bfbfbf;
@@ -1649,3 +1650,8 @@ a:hover#bottom-btn1 {
      padding: 10px 40px;
    }
  }
+ @media (max-width: 600px) {
+ .one-fourth.research {
+   max-width: 340px;
+ }
+}
