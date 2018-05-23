@@ -9,7 +9,7 @@ body {
 
 body {
 	margin: 0;
-  background: #fff;
+  background: #000;
 }
 
 /* fonts */
@@ -597,7 +597,7 @@ a {
 	    -moz-transform: skew(15deg);
 	    -o-transform: skew(15deg);
 	    transform: skew(15deg);
-	    border-right: 10px solid #fff;
+	    border-right: 10px solid #000;
 	    overflow:hidden;
 	    position:relative;
 	}
@@ -623,7 +623,7 @@ a {
 		grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 		justify-items: center;
 		background: #0e0e0e;
-		border-top: 10px solid #fff;
+		border-top: 10px solid #000;
 		margin-top: 0px;
     margin-bottom: 10px;
 	}
@@ -636,7 +636,7 @@ a {
 	    -moz-transform: skew(15deg);
 	    -o-transform: skew(15deg);
 	    transform: skew(15deg);
-	    border-left: 10px solid #fff;
+	    border-left: 10px solid #000;
 	    overflow: hidden;
 	    position: relative;
 	}
