@@ -726,7 +726,6 @@ p.animated.fadeIn {
 }
 .drawing-link li:nth-child(6) {
   background-image: url(../images/guy.png);
-  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -739,6 +738,62 @@ p.animated.fadeIn {
 }
 .drawing-link li:nth-child(8) {
   background-image: url(../images/me.png);
+  width: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.drawing-link li:nth-child(9) {
+  background-image: url(../images/man.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.drawing-link li:nth-child(10) {
+  background-image: url(../images/groundlab.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.drawing-link li:nth-child(11) {
+  background-image: url(../images/exposure.png);
+  width: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+}
+.drawing-link li:nth-child(12) {
+  background-image: url(../images/finalproject.png);
+  width: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.drawing-link li:nth-child(13) {
+  background-image: url(../images/scan212.png);
+  width: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.drawing-link li:nth-child(14) {
+  background-image: url(../images/primacy.png);
+  width: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+}
+.drawing-link li:nth-child(15) {
+  background-image: url(../images/scan132.png);
+  width: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.drawing-link li:nth-child(16) {
+  background-image: url(../images/shadowanalysis.png);
   width: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
