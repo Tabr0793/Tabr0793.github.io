@@ -343,7 +343,7 @@ a {
 	justify-content: center;
 	padding: 30px;
 	background-color: #373e40;
-  background-image: linear-gradient(180deg, #2c2d2d 0%, #2c2d2d 339%);
+  background-image: linear-gradient(180deg, #0e0e0e 0%, #536767 339%);
 	position: relative;
 }
 
@@ -586,7 +586,7 @@ a {
 		justify-items: center;
     margin-top: 10px;
 		background: #373e40;
-    background-image: linear-gradient(180deg, #2c2d2d 0%, #2c2d2d 339%);
+    background-image: linear-gradient(180deg, #0e0e0e 0%, #536767 339%);
 	}
 
 	.worklife-steps {
@@ -646,7 +646,7 @@ a {
 	}
 
 	.butcher {
-		background-image: url('../images/boat.png');
+		background-image: url('../images/per.png');
     	position: absolute;
     	background-repeat: no-repeat;
 		background-size: cover;
